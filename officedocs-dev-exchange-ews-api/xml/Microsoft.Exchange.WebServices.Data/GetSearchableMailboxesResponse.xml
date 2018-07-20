@@ -1,0 +1,70 @@
+<Type Name="GetSearchableMailboxesResponse" FullName="Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d26a160b5442b264f79474a7663544f2b391ef2b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624251" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetSearchableMailboxesResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetSearchableMailboxesResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetSearchableMailboxesResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetSearchableMailboxesResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contient les deux listes de boîtes aux lettres : liste des boîtes aux lettres qui peut être recherchés et une liste de boîtes aux lettres qui peut être exclus pour les besoins de découverte électronique.             Le <see cref="T:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FailedMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[] FailedMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[] FailedMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property FailedMailboxes As FailedSearchMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ FailedMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::FailedSearchMailbox ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FailedSearchMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la liste des boîtes aux lettres ciblés par une requête de découverte ne peut pas être recherchée.
+Le <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.FailedMailboxes" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Les boîtes aux lettres ne peuvent pas être recherchés.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchableMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SearchableMailboxes As SearchableMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ SearchableMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchableMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient les boîtes aux lettres ou les groupes de distribution qui correspondent à une requête de découverte électronique.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.GetSearchableMailboxesResponse.SearchableMailboxes" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Tableau de recherche boîtes aux lettres.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

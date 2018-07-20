@@ -1,0 +1,87 @@
+<Type Name="NonIndexableItemParameters" FullName="Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="77df6f0a00ac58804240f4bc4a40d7d05c1c5f53" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624331" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class NonIndexableItemParameters" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit NonIndexableItemParameters extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class NonIndexableItemParameters" />
+  <TypeSignature Language="C++ CLI" Value="public ref class NonIndexableItemParameters abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Objet contenant les paramètres utilisés dans la demande d’informations sur les éléments dans les dossiers qui ne peuvent pas être indexés. Le <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected NonIndexableItemParameters ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; NonIndexableItemParameters();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Crée une instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters" /> classe. Le <see cref="M:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.#ctor" /> constructeur est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailboxes">
+      <MemberSignature Language="C#" Value="public string[] Mailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] Mailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailboxes As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ Mailboxes { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la liste des boîtes aux lettres (au format de nom unique hérité).            Le <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.Mailboxes" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Liste des boîtes aux lettres.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchArchiveOnly">
+      <MemberSignature Language="C#" Value="public bool SearchArchiveOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SearchArchiveOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchArchiveOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SearchArchiveOnly { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit si la recherche des dossiers d’archivage.            Le <see cref="P:Microsoft.Exchange.WebServices.Data.NonIndexableItemParameters.SearchArchiveOnly" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>
+          <b>la valeur True</b> si seuls les dossiers d’archivage sont recherchés ; Sinon, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

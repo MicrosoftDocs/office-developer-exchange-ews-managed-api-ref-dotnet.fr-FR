@@ -1,0 +1,179 @@
+<Type Name="CalendarFolder" FullName="Microsoft.Exchange.WebServices.Data.CalendarFolder">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="98a14ce66be6f0811ade9e9ef383937c628e7ea3" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624304" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class CalendarFolder : Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CalendarFolder extends Microsoft.Exchange.WebServices.Data.Folder" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarFolder" />
+  <TypeSignature Language="VB.NET" Value="Public Class CalendarFolder&#xA;Inherits Folder" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarFolder : Microsoft::Exchange::WebServices::Data::Folder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Folder</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente un dossier qui contient le rendez-vous.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CalendarFolder (Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CalendarFolder(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="service">Les objets de classe ExchangeService à laquelle le dossier calendrier sera lié.</param>
+        <summary>Initialise une instance non enregistrée locale de la classe CalendarFolder. Pour lier à un dossier calendrier existant, utilisez la méthode de liaison.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As FolderId) As CalendarFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="service">Le service à utiliser pour lier au dossier de calendrier.</param>
+        <param name="id">L’ID du dossier calendrier à lier.</param>
+        <summary>Établit une liaison à un dossier calendrier existant et charge ses propriétés de première classes. L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</summary>
+        <returns>Une instance de la classe CalendarFolder qui représente le dossier calendrier qui correspond à l’ID spécifié.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, name As WellKnownFolderName) As CalendarFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="service">Le service à utiliser pour lier au dossier de calendrier.</param>
+        <param name="name">Le nom du dossier de calendrier à lier.</param>
+        <summary>Établit une liaison à un dossier calendrier existant et charge ses propriétés de première classes. L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</summary>
+        <returns>Une instance de la classe CalendarFolder qui représente le dossier calendrier avec le nom spécifié.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.FolderId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.FolderId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.FolderId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::FolderId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">Le service à utiliser pour lier au dossier de calendrier.</param>
+        <param name="id">L’ID du dossier calendrier à lier.</param>
+        <param name="propertySet">Le jeu de propriétés à charger.</param>
+        <summary>Établit une liaison à un dossier calendrier existant et charge le jeu de propriétés spécifié. L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</summary>
+        <returns>Une instance de CalendarFolder qui représente le dossier calendrier qui correspond à l’ID spécifié.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.CalendarFolder Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.CalendarFolder Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName name, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.WellKnownFolderName,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::CalendarFolder ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::WellKnownFolderName name, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarFolder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="name" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">Le service à utiliser pour lier au dossier de calendrier.</param>
+        <param name="name">Le nom du dossier de calendrier à lier.</param>
+        <param name="propertySet">Le jeu de propriétés à charger.</param>
+        <summary>Établit une liaison à un dossier calendrier existant et charge le jeu de propriétés spécifié. L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</summary>
+        <returns>Une instance de la classe CalendarFolder qui représente le dossier calendrier avec le nom spécifié.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FindAppointments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt; FindAppointments (Microsoft.Exchange.WebServices.Data.CalendarView view);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.FindItemsResults`1&lt;class Microsoft.Exchange.WebServices.Data.Appointment&gt; FindAppointments(class Microsoft.Exchange.WebServices.Data.CalendarView view) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CalendarFolder.FindAppointments(Microsoft.Exchange.WebServices.Data.CalendarView)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindAppointments (view As CalendarView) As FindItemsResults(Of Appointment)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::FindItemsResults&lt;Microsoft::Exchange::WebServices::Data::Appointment ^&gt; ^ FindAppointments(Microsoft::Exchange::WebServices::Data::CalendarView ^ view);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FindItemsResults&lt;Microsoft.Exchange.WebServices.Data.Appointment&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="view" Type="Microsoft.Exchange.WebServices.Data.CalendarView" />
+      </Parameters>
+      <Docs>
+        <param name="view">Affichage qui contrôle la plage de rendez-vous sont renvoyés.</param>
+        <summary>Obtient une liste de rendez-vous en recherchant dans le contenu de ce dossier et exécution d’extension de périodicité pour les rendez-vous périodiques. L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</summary>
+        <returns>Objet qui représente les résultats de l’opération de recherche.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

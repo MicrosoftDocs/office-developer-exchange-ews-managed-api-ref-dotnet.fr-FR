@@ -1,0 +1,169 @@
+<Type Name="ContactEntity" FullName="Microsoft.Exchange.WebServices.Data.ContactEntity">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8a956e92635ccb6f58424dc385beba2ba1c3959b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623867" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ContactEntity : Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ContactEntity extends Microsoft.Exchange.WebServices.Data.ExtractedEntity" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactEntity" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ContactEntity&#xA;Inherits ExtractedEntity" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactEntity sealed : Microsoft::Exchange::WebServices::Data::ExtractedEntity" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ExtractedEntity</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Définit un objet entité de contact.             Le <see cref="T:Microsoft.Exchange.WebServices.Data.ContactEntity" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Addresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Addresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Addresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Addresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Addresses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Addresses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient les adresses de l’entité contact.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Addresses" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Les adresses de l’entité contact.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessName">
+      <MemberSignature Language="C#" Value="public string BusinessName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BusinessName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.BusinessName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BusinessName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ BusinessName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le nom de l’entité de contact d’entreprise.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.BusinessName" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Le nom d’entreprise associé à l’entité contact.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactString">
+      <MemberSignature Language="C#" Value="public string ContactString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContactString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.ContactString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContactString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ContactString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le nom complet de l’entité contact.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.ContactString" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Le nom complet du contact d’entité.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList EmailAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddresses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ EmailAddresses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient les adresses de messagerie de l’entité contact.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.EmailAddresses" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Les adresses de messagerie associées à l’entité contact.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonName">
+      <MemberSignature Language="C#" Value="public string PersonName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PersonName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PersonName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PersonName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PersonName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le nom de la personne pour l’entité contact.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PersonName" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Nom de la personne associé à l’entité contact.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection PhoneNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneNumbers As ContactPhoneEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ContactPhoneEntityCollection ^ PhoneNumbers { Microsoft::Exchange::WebServices::Data::ContactPhoneEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactPhoneEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient les numéros de téléphone pour l’entité contact.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.PhoneNumbers" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Les numéros de téléphone associés à l’entité contact.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Urls">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Urls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Urls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Urls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Urls As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Urls { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient l’URL de l’entité contact.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.ContactEntity.Urls" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Les URL de l’entité contact.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

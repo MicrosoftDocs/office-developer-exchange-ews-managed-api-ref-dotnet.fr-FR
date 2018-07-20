@@ -1,0 +1,123 @@
+<Type Name="SendInvitationsOrCancellationsMode" FullName="Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e8dc661359af3015b2e1b7731c0616cef24fe6b2" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624389" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed SendInvitationsOrCancellationsMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum SendInvitationsOrCancellationsMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class SendInvitationsOrCancellationsMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Spécifie les constantes qui définissent le traitement des invitations aux réunions ou annulations lors d’une réunion est mis à jour.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SendOnlyToAll">
+      <MemberSignature Language="C#" Value="SendOnlyToAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendOnlyToAll = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendOnlyToAll" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToAll" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Envoyer des invitations annulations à tous les participants ; ne pas enregistrer une copie de l’invitation/annulation de réunion dans le dossier éléments envoyés de l’organisateur.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendOnlyToChanged">
+      <MemberSignature Language="C#" Value="SendOnlyToChanged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendOnlyToChanged = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendOnlyToChanged" />
+      <MemberSignature Language="VB.NET" Value="SendOnlyToChanged" />
+      <MemberSignature Language="C++ CLI" Value="SendOnlyToChanged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Envoyer des invitations annulations uniquement aux participants qui ont été ajoutées ou modifiées ; ne pas enregistrer une copie de l’invitation/annulation de réunion dans le dossier éléments envoyés de l’organisateur.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToAllAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToAllAndSaveCopy = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToAllAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToAllAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToAllAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Envoyer des invitations annulations à tous les participants et enregistrer une copie de l’invitation/annulation de réunion dans le dossier éléments envoyés de l’organisateur.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToChangedAndSaveCopy">
+      <MemberSignature Language="C#" Value="SendToChangedAndSaveCopy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToChangedAndSaveCopy = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToChangedAndSaveCopy" />
+      <MemberSignature Language="VB.NET" Value="SendToChangedAndSaveCopy" />
+      <MemberSignature Language="C++ CLI" Value="SendToChangedAndSaveCopy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Envoyer des invitations annulations uniquement aux participants qui ont été ajoutés ou modifiés et enregistrer une copie de l’invitation/annulation de réunion dans le dossier éléments envoyés de l’organisateur.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SendToNone">
+      <MemberSignature Language="C#" Value="SendToNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode SendToNone = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode.SendToNone" />
+      <MemberSignature Language="VB.NET" Value="SendToNone" />
+      <MemberSignature Language="C++ CLI" Value="SendToNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SendInvitationsOrCancellationsMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Ne pas envoyer les invitations annulations.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

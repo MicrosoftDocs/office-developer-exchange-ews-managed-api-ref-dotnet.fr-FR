@@ -1,0 +1,88 @@
+<Type Name="TimeZoneConversionException" FullName="Microsoft.Exchange.WebServices.Data.TimeZoneConversionException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dd1dc20ac85d17228adad92fe52cf1fa50f0e56b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624204" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TimeZoneConversionException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit TimeZoneConversionException extends Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TimeZoneConversionException" />
+  <TypeSignature Language="VB.NET" Value="Public Class TimeZoneConversionException&#xA;Inherits ServiceLocalException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TimeZoneConversionException : Microsoft::Exchange::WebServices::Data::ServiceLocalException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceLocalException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>L’exception est levée lorsqu’une date et une heure ne peut pas être convertis d’un fuseau horaire à un autre.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TimeZoneConversionException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TimeZoneConversionException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TimeZoneConversionException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initialise une nouvelle instance de la classe TimeZoneConversionException.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TimeZoneConversionException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TimeZoneConversionException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TimeZoneConversionException(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">Le message d’erreur expliquant la raison de l’exception.</param>
+        <summary>Initialise une nouvelle instance de la classe TimeZoneConversionException avec le message d’erreur spécifié.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TimeZoneConversionException (string message, Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.TimeZoneConversionException.#ctor(System.String,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TimeZoneConversionException(System::String ^ message, Exception ^ innerException);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">Le message d’erreur expliquant la raison de l’exception.</param>
+        <param name="innerException">Exception qui est la cause de l’exception actuelle, ou une référence null (Nothing dans Visual Basic) si aucune exception interne n’est spécifiée.</param>
+        <summary>Initialise une nouvelle instance de la classe TimeZoneConversionException avec le message d’erreur spécifié et une référence à l’exception interne qui est la cause de cette exception.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

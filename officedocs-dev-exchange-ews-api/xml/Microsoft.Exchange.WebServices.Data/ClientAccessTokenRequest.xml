@@ -1,0 +1,138 @@
+<Type Name="ClientAccessTokenRequest" FullName="Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d6a9c75d2376c2efff9b0b153a9e3a59168f5afa" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624218" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ClientAccessTokenRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClientAccessTokenRequest extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClientAccessTokenRequest&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientAccessTokenRequest : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente une demande d’émission de jeton d’accès client pour une application de messagerie pour Outlook.The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+    <remarks>
+      <para>Le <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> classe est utilisée avec la <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetClientAccessToken(Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest[])" /> méthode à la demande les jetons d’accès client pour les applications de messagerie pour Outlook.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientAccessTokenRequest (string id, Microsoft.Exchange.WebServices.Data.ClientAccessTokenType tokenType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType tokenType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.#ctor(System.String,Microsoft.Exchange.WebServices.Data.ClientAccessTokenType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, tokenType As ClientAccessTokenType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClientAccessTokenRequest(System::String ^ id, Microsoft::Exchange::WebServices::Data::ClientAccessTokenType tokenType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="tokenType" Type="Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" />
+      </Parameters>
+      <Docs>
+        <param name="id">L’identificateur de l’application pour l’application qui demande un jeton d’accès client.</param>
+        <param name="tokenType">Le type de jeton demandé.</param>
+        <summary>Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> classe avec un identificateur de l’application et le type de jeton.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientAccessTokenRequest (string id, Microsoft.Exchange.WebServices.Data.ClientAccessTokenType tokenType, string scope);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType tokenType, string scope) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.#ctor(System.String,Microsoft.Exchange.WebServices.Data.ClientAccessTokenType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, tokenType As ClientAccessTokenType, scope As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClientAccessTokenRequest(System::String ^ id, Microsoft::Exchange::WebServices::Data::ClientAccessTokenType tokenType, System::String ^ scope);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="tokenType" Type="Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" />
+        <Parameter Name="scope" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">L’identificateur de l’application pour l’application qui demande un jeton d’accès client.</param>
+        <param name="tokenType">Le type de jeton demandé.</param>
+        <param name="scope">Étendue du jeton d’accès client demandé. Ce paramètre s’applique uniquement si la valeur de la <paramref name="tokenType" /> paramètre est <b>ClientAccessTokenType.ScopedToken</b>.</param>
+        <summary>Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> classe avec un identificateur de l’application, un type de jeton et une étendue.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient l’identificateur de l’application associée à la demande de jeton d’accès au client.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public string Scope { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Scope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Scope As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Scope { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient la portée d’émission de jeton demandée associée à la demande de jeton d’accès au client.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.TokenType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenType As ClientAccessTokenType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientAccessTokenType TokenType { Microsoft::Exchange::WebServices::Data::ClientAccessTokenType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le type de jeton demandé associé à la demande de jeton d’accès au client.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

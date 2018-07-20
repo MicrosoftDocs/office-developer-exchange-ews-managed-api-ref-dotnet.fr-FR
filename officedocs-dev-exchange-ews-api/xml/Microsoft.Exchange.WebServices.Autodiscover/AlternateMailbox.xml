@@ -1,0 +1,149 @@
+<Type Name="AlternateMailbox" FullName="Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="23e070683a8d43935cc2fbd90e53a87effb84747" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624280" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AlternateMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AlternateMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AlternateMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contient des informations sur une autre sur une des boîtes aux lettres d’un utilisateur ; par exemple, une archive de boîte de réception d’un utilisateur.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le nom de l’autre boîte aux lettres qui est affiché pour un utilisateur.</summary>
+        <value>Le nom complet de l’autre boîte aux lettres.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LegacyDN">
+      <MemberSignature Language="C#" Value="public string LegacyDN { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LegacyDN" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LegacyDN As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LegacyDN { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le nom de domaine hérité de la boîte aux lettres à l’autre.</summary>
+        <value>Nom de domaine hérité de la boîte aux lettres à l’autre.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OwnerSmtpAddress">
+      <MemberSignature Language="C#" Value="public string OwnerSmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OwnerSmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.OwnerSmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OwnerSmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OwnerSmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient l’adresse SMTP du propriétaire de la boîte aux lettres substitution. Le <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.OwnerSmtpAddress" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par 15.00.0847.032.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Server">
+      <MemberSignature Language="C#" Value="public string Server { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Server" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Server As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Server { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le nom du serveur qui héberge la boîte aux lettres à l’autre.</summary>
+        <value>Le nom du serveur de boîtes aux lettres de substitution.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="public string SmtpAddress { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SmtpAddress { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient la boîte aux lettres autre adresse SMTP Simple Mail Transfer Protocol () si le <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" /> et <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" /> propriétés sont une référence null (Nothing dans Visual Basic). Le <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.SmtpAddress" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’autre boîte aux lettres adresse SMTP si le <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Server" /> et <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.LegacyDN" /> propriétés sont une référence null (Nothing dans Visual Basic). Dans le cas contraire, une référence null (Nothing dans Visual Basic).</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AlternateMailbox.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le type de la boîte aux lettres de substitution ; par exemple, archiver.</summary>
+        <value>Le type de la boîte aux lettres à l’autre.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

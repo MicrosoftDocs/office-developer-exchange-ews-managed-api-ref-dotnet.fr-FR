@@ -1,0 +1,169 @@
+<Type Name="ServiceId" FullName="Microsoft.Exchange.WebServices.Data.ServiceId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9f78c5b828f97271afd242bc6144bb1b5373d6f7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624272" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ServiceId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceId extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceId&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceId abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente l’Id d’un objet Exchange.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceId.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient la clé de modification associée à l’objet Exchange.</summary>
+        <value>Une valeur de chaîne</value>
+        <remarks>
+          <para>Modifier la clé représente la version de l’élément associé ou du dossier.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">System.Object à comparer avec l’objet System.Object actuel.</param>
+        <summary>Détermine si le texte spécifié est égal à en cours.</summary>
+        <returns>True si l’objet System.Object spécifié est égale à l’objet System.Object actuel ; Sinon, false.</returns>
+        <remarks>
+          <para>Nous ne prenons le ChangeKey pour ServiceId.Equals.</para>
+          <para />
+        </remarks>
+        <exception cref="T:System.NullReferenceException">Le<paramref name="obj" />paramètre est null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Sert de fonction de hachage pour un type particulier.</summary>
+        <returns>Code de hachage pour l’objet System.Object actuel.</returns>
+        <remarks>
+          <para>Nous ne pas prendre en compte la clé de modification dans le calcul du code de hachage.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SameIdAndChangeKey">
+      <MemberSignature Language="C#" Value="public bool SameIdAndChangeKey (Microsoft.Exchange.WebServices.Data.ServiceId other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool SameIdAndChangeKey(class Microsoft.Exchange.WebServices.Data.ServiceId other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.SameIdAndChangeKey(Microsoft.Exchange.WebServices.Data.ServiceId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SameIdAndChangeKey (other As ServiceId) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool SameIdAndChangeKey(Microsoft::Exchange::WebServices::Data::ServiceId ^ other);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Exchange.WebServices.Data.ServiceId" />
+      </Parameters>
+      <Docs>
+        <param name="other">ServiceId à comparer avec le ServiceId actuel.</param>
+        <summary>Détermine si les deux instances ServiceId sont égaux (y compris ChangeKeys)</summary>
+        <returns>True si les deux instances sont égales ; Sinon, false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Renvoie un System.String qui représente l’objet System.Object actuel.</summary>
+        <returns>System.String qui représente l’objet System.Object actuel.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueId">
+      <MemberSignature Language="C#" Value="public string UniqueId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceId.UniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient l’Id unique de l’objet Exchange.</summary>
+        <value>Une valeur de type string.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

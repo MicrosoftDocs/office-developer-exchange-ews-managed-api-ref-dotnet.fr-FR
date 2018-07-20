@@ -1,0 +1,473 @@
+<Type Name="SearchPreviewItem" FullName="Microsoft.Exchange.WebServices.Data.SearchPreviewItem">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a1da90c0754be96dcd1385c6275c739cdc9214c8" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623684" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SearchPreviewItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SearchPreviewItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SearchPreviewItem" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SearchPreviewItem" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SearchPreviewItem sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contient les propriétés et les méthodes requises pour afficher un aperçu d’un élément dans un résultat de recherche eDiscovery.             Le <see cref="T:Microsoft.Exchange.WebServices.Data.SearchPreviewItem" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SearchPreviewItem ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SearchPreviewItem();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.SearchPreviewItem" /> classe. Le <see cref="M:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.#ctor" /> constructeur est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BccRecipients">
+      <MemberSignature Language="C#" Value="public string[] BccRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] BccRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.BccRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property BccRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ BccRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la liste d’adresses qui n’étaient pas visibles pour les autres destinataires de l’élément.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.BccRecipients" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La liste des destinataires Cci.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CcRecipients">
+      <MemberSignature Language="C#" Value="public string[] CcRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] CcRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CcRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property CcRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ CcRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la liste des destinataires qui a reçu l’élément mais qui n’étaient pas prévus aucune action.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CcRecipients" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La liste des destinataires Cc.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatedTime">
+      <MemberSignature Language="C#" Value="public DateTime CreatedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreatedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CreatedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property CreatedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime CreatedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’heure de que l’élément a été écrit.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.CreatedTime" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’heure de création.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); void set(Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit les propriétés étendues sur l’élément.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ExtendedProperties" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Les propriétés étendues.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachment">
+      <MemberSignature Language="C#" Value="public bool HasAttachment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.HasAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachment { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit si l’élément comporte des pièces jointes.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.HasAttachment" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> si l’élément a des pièces jointes ; Sinon, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’identificateur de l’élément.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Id" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’identificateur d’élément.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); void set(Microsoft::Exchange::WebServices::Data::Importance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit le niveau d’urgence de l’élément.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Importance" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’importance.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la classe de message de l’élément d’aperçu.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ItemClass" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La classe d’élément.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PreviewItemMailbox Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PreviewItemMailbox Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As PreviewItemMailbox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PreviewItemMailbox ^ Mailbox { Microsoft::Exchange::WebServices::Data::PreviewItemMailbox ^ get(); void set(Microsoft::Exchange::WebServices::Data::PreviewItemMailbox ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PreviewItemMailbox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’identificateur de la boîte aux lettres qui contient l’élément d’aperçu.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Mailbox" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La boîte aux lettres.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OwaLink">
+      <MemberSignature Language="C#" Value="public string OwaLink { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OwaLink" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.OwaLink" />
+      <MemberSignature Language="VB.NET" Value="Public Property OwaLink As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OwaLink { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit le lien à Outlook Web Access. Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.OwaLink" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Le lien Outlook Web Access.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ParentId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ParentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ParentId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ParentId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ParentId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); void set(Microsoft::Exchange::WebServices::Data::ItemId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’identificateur du parent de l’élément d’aperçu.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ParentId" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Identificateur de l’élément parent.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Cette valeur n’est pas utilisée et renvoie toujours une chaîne vide.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Preview" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Une chaîne vide.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Read">
+      <MemberSignature Language="C#" Value="public bool Read { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Read" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Read" />
+      <MemberSignature Language="VB.NET" Value="Public Property Read As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Read { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit si l’élément a été lu.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Read" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> si l’élément a été lu ; Sinon, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReceivedTime">
+      <MemberSignature Language="C#" Value="public DateTime ReceivedTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReceivedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ReceivedTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReceivedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReceivedTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’heure d’arrivée de l’élément dans la boîte aux lettres.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ReceivedTime" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’heure de réception.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sender">
+      <MemberSignature Language="C#" Value="public string Sender { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Sender" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Sender" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sender As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Sender { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’adresse de l’élément a été envoyée.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Sender" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’expéditeur.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentTime">
+      <MemberSignature Language="C#" Value="public DateTime SentTime { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime SentTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SentTime" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime SentTime { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’heure de que l’élément a été envoyé.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SentTime" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’heure d’envoi.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public ulong Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int64 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As ULong" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::UInt64 Size { System::UInt64 get(); void set(System::UInt64 value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.CLSCompliant(false)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.UInt64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la taille de l’élément.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Size" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La taille des éléments.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortValue">
+      <MemberSignature Language="C#" Value="public string SortValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SortValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SortValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SortValue { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la valeur utilisée pour le tri de l’élément dans un résultat de recherche. Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.SortValue" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La valeur de tri.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit les informations relatives à la position de l’objet de l’élément.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.Subject" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’objet.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToRecipients">
+      <MemberSignature Language="C#" Value="public string[] ToRecipients { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string[] ToRecipients" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ToRecipients" />
+      <MemberSignature Language="VB.NET" Value="Public Property ToRecipients As String()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::String ^&gt; ^ ToRecipients { cli::array &lt;System::String ^&gt; ^ get(); void set(cli::array &lt;System::String ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la liste des adresses d’à que l’élément a été envoyé.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.ToRecipients" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La liste des destinataires à.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueHash">
+      <MemberSignature Language="C#" Value="public string UniqueHash { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueHash" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.UniqueHash" />
+      <MemberSignature Language="VB.NET" Value="Public Property UniqueHash As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueHash { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la valeur de hachage unique utilisée pour identifier et éliminer les doublons dans une requête de recherche eDiscovery. Le <see cref="P:Microsoft.Exchange.WebServices.Data.SearchPreviewItem.UniqueHash" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Le hachage unique.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,106 @@
+<Type Name="MailboxHoldResult" FullName="Microsoft.Exchange.WebServices.Data.MailboxHoldResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bcd03132e47f8d9815921b321502d64435462231" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623656" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class MailboxHoldResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit MailboxHoldResult extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MailboxHoldResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MailboxHoldResult" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailboxHoldResult sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contient le résultat d’une requête eDiscovery maintenez action notamment un ID de la suspension, la requête utilisée pour déterminer les dossiers et les éléments doivent contenir une découverte électronique et une collection d’état pour toutes les boîtes aux lettres cible.             Le <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldResult" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MailboxHoldResult ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MailboxHoldResult();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.MailboxHoldResult" /> classe. Le <see cref="M:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.#ctor" /> constructeur est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HoldId">
+      <MemberSignature Language="C#" Value="public string HoldId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HoldId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.HoldId" />
+      <MemberSignature Language="VB.NET" Value="Public Property HoldId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ HoldId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’ID de suspension pour une action de blocage eDiscovery.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.HoldId" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’ID de la suspension.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public string Query { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Query" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.Query" />
+      <MemberSignature Language="VB.NET" Value="Public Property Query As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Query { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la requête utilisée pour déterminer les dossiers et les éléments nécessitent un blocage eDiscovery.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.Query" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La requête.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Statuses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MailboxHoldStatus[] Statuses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MailboxHoldStatus[] Statuses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.Statuses" />
+      <MemberSignature Language="VB.NET" Value="Public Property Statuses As MailboxHoldStatus()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxHoldStatus ^&gt; ^ Statuses { cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxHoldStatus ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::MailboxHoldStatus ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MailboxHoldStatus[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la collection d’état contenant la réussite ou l’échec de l’action d’attente placée sur les boîtes aux lettres cible.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.MailboxHoldResult.Statuses" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>La collection des statuts de boîte aux lettres.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

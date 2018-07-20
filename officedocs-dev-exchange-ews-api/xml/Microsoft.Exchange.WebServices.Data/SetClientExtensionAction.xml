@@ -1,0 +1,52 @@
+<Type Name="SetClientExtensionAction" FullName="Microsoft.Exchange.WebServices.Data.SetClientExtensionAction">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e16e0f4bddd698ae55466e4782a1884dfccb476a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623629" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class SetClientExtensionAction : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SetClientExtensionAction extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class SetClientExtensionAction&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SetClientExtensionAction sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Définit une action pour gérer les applications clientes.             Le <see cref="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public SetClientExtensionAction (Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId setClientExtensionActionId, string extensionId, Microsoft.Exchange.WebServices.Data.ClientExtension clientExtension);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId setClientExtensionActionId, string extensionId, class Microsoft.Exchange.WebServices.Data.ClientExtension clientExtension) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction.#ctor(Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId,System.String,Microsoft.Exchange.WebServices.Data.ClientExtension)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SetClientExtensionAction(Microsoft::Exchange::WebServices::Data::SetClientExtensionActionId setClientExtensionActionId, System::String ^ extensionId, Microsoft::Exchange::WebServices::Data::ClientExtension ^ clientExtension);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="setClientExtensionActionId" Type="Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId" />
+        <Parameter Name="extensionId" Type="System.String" />
+        <Parameter Name="clientExtension" Type="Microsoft.Exchange.WebServices.Data.ClientExtension" />
+      </Parameters>
+      <Docs>
+        <param name="setClientExtensionActionId">Définir les actions telles qu’installer, désinstaller et configurer.</param>
+        <param name="extensionId">L’identificateur d’extension requis par la configuration et actions de désinstallation.</param>
+        <param name="clientExtension">L’objet de données d’extension requis par l’action configurer.</param>
+        <summary>Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction" /> classe. Le <see cref="M:Microsoft.Exchange.WebServices.Data.SetClientExtensionAction.#ctor(Microsoft.Exchange.WebServices.Data.SetClientExtensionActionId,System.String,Microsoft.Exchange.WebServices.Data.ClientExtension)" /> constructeur est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

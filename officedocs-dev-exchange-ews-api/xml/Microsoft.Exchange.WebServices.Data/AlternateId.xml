@@ -1,0 +1,163 @@
+<Type Name="AlternateId" FullName="Microsoft.Exchange.WebServices.Data.AlternateId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d8eb84c9da9e6afc49e95c01b57b6723f64f9861" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624300" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AlternateId : Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AlternateId extends Microsoft.Exchange.WebServices.Data.AlternateIdBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.AlternateId" />
+  <TypeSignature Language="VB.NET" Value="Public Class AlternateId&#xA;Inherits AlternateIdBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AlternateId : Microsoft::Exchange::WebServices::Data::AlternateIdBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.AlternateIdBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente un identificateur exprimé dans un format spécifique.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId (Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, id As String, mailbox As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ id, System::String ^ mailbox);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="mailbox" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="format">Le format de l’identificateur de l’identificateur à convertir.</param>
+        <param name="id">L’identificateur à convertir.</param>
+        <param name="mailbox">L’adresse SMTP de la boîte aux lettres qui contient l’identificateur à convertir.</param>
+        <summary>Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> classe à l’aide de l’adresse SMTP format, identificateur et boîte aux lettres fournie.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AlternateId (Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox, bool isArchive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.IdFormat format, string id, string mailbox, bool isArchive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.AlternateId.#ctor(Microsoft.Exchange.WebServices.Data.IdFormat,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (format As IdFormat, id As String, mailbox As String, isArchive As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AlternateId(Microsoft::Exchange::WebServices::Data::IdFormat format, System::String ^ id, System::String ^ mailbox, bool isArchive);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="format" Type="Microsoft.Exchange.WebServices.Data.IdFormat" />
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="isArchive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="format">Le format de l’identificateur de l’identificateur à convertir.</param>
+        <param name="id">L’identificateur à convertir.</param>
+        <param name="mailbox">L’adresse SMTP de la boîte aux lettres qui contient l’identificateur à convertir.</param>
+        <param name="isArchive">Indicateur qui indique si l’identificateur d’un élément archivé.</param>
+        <summary>Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.AlternateId" /> de classe à l’aide du format fourni, les identificateur, les adresses de la boîte aux lettres SMTP et archivage identificateur.</summary>
+        <remarks>
+          <para>Cette surcharge s’applique aux clients qui ciblent les versions de Microsoft Exchange Server commençant par Exchange Server 2010 Service Pack 1 (SP1).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit une valeur qui indique si l’identificateur représente un identificateur d’élément ou un dossier archive.</summary>
+        <value>
+          <b>true</b> si l’identificateur représente un élément d’archivage ou un dossier ; Sinon, <b>false</b>.</value>
+        <remarks>
+          <para>Cette propriété s’applique aux clients qui ciblent les versions de Microsoft Exchange Server commençant par Exchange Server 2010 Service Pack 1 (SP1).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’adresse SMTP de la boîte aux lettres qui contient l’identificateur à convertir.</summary>
+        <value>Une adresse SMTP.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueId">
+      <MemberSignature Language="C#" Value="public string UniqueId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.AlternateId.UniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UniqueId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’identificateur à convertir.</summary>
+        <value>Un dossier ou un identificateur d’élément.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

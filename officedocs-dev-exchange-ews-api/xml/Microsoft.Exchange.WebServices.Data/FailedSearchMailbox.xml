@@ -1,0 +1,161 @@
+<Type Name="FailedSearchMailbox" FullName="Microsoft.Exchange.WebServices.Data.FailedSearchMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a38c6e0e7eac30a7500be036575da360072b528c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624118" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FailedSearchMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FailedSearchMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FailedSearchMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FailedSearchMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contient des informations décrivant une recherche de boîte aux lettres ayant échoué.             Le <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FailedSearchMailbox (string mailbox, int errorCode, string errorMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, int32 errorCode, string errorMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, errorCode As Integer, errorMessage As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FailedSearchMailbox(System::String ^ mailbox, int errorCode, System::String ^ errorMessage);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="errorCode" Type="System.Int32" />
+        <Parameter Name="errorMessage" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">Recherche de la boîte aux lettres.</param>
+        <param name="errorCode">Code d’erreur.</param>
+        <param name="errorMessage">Message d’erreur.</param>
+        <summary>Initialise une nouvelle instance de la <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> une classe dans la boîte aux lettres référencé. Le <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String)" /> constructeur est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FailedSearchMailbox (string mailbox, int errorCode, string errorMessage, bool isArchive);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailbox, int32 errorCode, string errorMessage, bool isArchive) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailbox As String, errorCode As Integer, errorMessage As String, isArchive As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FailedSearchMailbox(System::String ^ mailbox, int errorCode, System::String ^ errorMessage, bool isArchive);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailbox" Type="System.String" />
+        <Parameter Name="errorCode" Type="System.Int32" />
+        <Parameter Name="errorMessage" Type="System.String" />
+        <Parameter Name="isArchive" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="mailbox">L’ID de boîte aux lettres.</param>
+        <param name="errorCode">Code d’erreur.</param>
+        <param name="errorMessage">Message d’erreur.</param>
+        <param name="isArchive">
+          <b>la valeur true</b> s’il s’agit d’archivage de la boîte aux lettres ; Sinon, <b>false</b>.</param>
+        <summary>Initialise une nouvelle instance de la <see cref="T:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox" /> une classe dans la boîte aux lettres référencé spécifiant si la boîte aux lettres cible est une boîte aux lettres d’archive. Le <see cref="M:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.#ctor(System.String,System.Int32,System.String,System.Boolean)" /> constructeur est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public int ErrorCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorCode As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ErrorCode { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit le code d’erreur associé à l’échec de la recherche.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorCode" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Code d’erreur.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit le message d’erreur associé à l’échec de la recherche.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.ErrorMessage" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>Message d’erreur.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsArchive">
+      <MemberSignature Language="C#" Value="public bool IsArchive { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsArchive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsArchive As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsArchive { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit une valeur indiquant si la boîte aux lettres cible est une boîte aux lettres d’archive.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.IsArchive" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>
+          <b>true</b> si la boîte aux lettres cible est une boîte aux lettres d’archivage ; Sinon, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mailbox">
+      <MemberSignature Language="C#" Value="public string Mailbox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Mailbox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Property Mailbox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Mailbox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’ID de boîte aux lettres cible.             Le <see cref="P:Microsoft.Exchange.WebServices.Data.FailedSearchMailbox.Mailbox" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <value>L’ID de boîte aux lettres.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

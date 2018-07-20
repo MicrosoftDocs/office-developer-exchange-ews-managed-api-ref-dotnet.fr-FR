@@ -1,0 +1,269 @@
+<Type Name="Mailbox" FullName="Microsoft.Exchange.WebServices.Data.Mailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="57d6fda2ee4df2ccfd1ce1a157bfaa805f9ddba0" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624085" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Mailbox : Microsoft.Exchange.WebServices.Data.ComplexProperty, Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Mailbox extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class Microsoft.Exchange.WebServices.Data.ISearchStringProvider" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Mailbox" />
+  <TypeSignature Language="VB.NET" Value="Public Class Mailbox&#xA;Inherits ComplexProperty&#xA;Implements ISearchStringProvider" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Mailbox : Microsoft::Exchange::WebServices::Data::ComplexProperty, Microsoft::Exchange::WebServices::Data::ISearchStringProvider" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Exchange.WebServices.Data.ISearchStringProvider</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>Représente une référence de boîte aux lettres.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Mailbox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Mailbox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Mailbox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initialise une nouvelle instance de la classe de boîte aux lettres.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Mailbox (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Mailbox.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (smtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Mailbox(System::String ^ smtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">L’adresse SMTP principale de la boîte aux lettres.</param>
+        <summary>Initialise une nouvelle instance de la classe de boîte aux lettres avec l’adresse SMTP de la boîte aux lettres.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Mailbox (string address, string routingType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string address, string routingType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Mailbox.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (address As String, routingType As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Mailbox(System::String ^ address, System::String ^ routingType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="address" Type="System.String" />
+        <Parameter Name="routingType" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="address">L’adresse utilisée pour faire référence à la boîte aux lettres de l’utilisateur.</param>
+        <param name="routingType">Le type de routage de l’adresse utilisée pour faire référence à la boîte aux lettres de l’utilisateur.</param>
+        <summary>Initialise une nouvelle instance de la classe de boîte aux lettres avec l’adresse et le type de routage de la boîte aux lettres.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Address">
+      <MemberSignature Language="C#" Value="public string Address { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Address" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Mailbox.Address" />
+      <MemberSignature Language="VB.NET" Value="Public Property Address As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Address { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’adresse qui est utilisé pour faire référence à la boîte aux lettres de l’utilisateur.</summary>
+        <value>Une adresse de messagerie.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Mailbox.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">La boîte aux lettres à comparer à la boîte aux lettres en cours.</param>
+        <summary>Détermine si la boîte aux lettres spécifiée est égale à la boîte aux lettres en cours.</summary>
+        <returns>
+          <b>true</b> si la boîte aux lettres spécifiée est égale à la boîte aux lettres en cours ; Sinon, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NullReferenceException">Le<paramref name="Obj" /> paramètre est null.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Mailbox.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Sert de fonction de hachage pour un type particulier.</summary>
+        <returns>Code de hachage pour l’objet boîte aux lettres en cours.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValid">
+      <MemberSignature Language="C#" Value="public bool IsValid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsValid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Mailbox.IsValid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsValid As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsValid { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indique si la boîte aux lettres est valide.</summary>
+        <value>
+          <b>true</b> si cette instance est valide ; Sinon, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString">
+      <MemberSignature Language="C#" Value="string ISearchStringProvider.GetSearchString ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance string Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Mailbox.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" />
+      <MemberSignature Language="VB.NET" Value="Function GetSearchString () As String Implements ISearchStringProvider.GetSearchString" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::String ^ Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString() = Microsoft::Exchange::WebServices::Data::ISearchStringProvider::GetSearchString;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.ISearchStringProvider.GetSearchString</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Obtient une représentation de chaîne de cet objet pour une utilisation dans un filtre de recherche. Le <see cref="M:Microsoft.Exchange.WebServices.Data.Mailbox.Microsoft#Exchange#WebServices#Data#ISearchStringProvider#GetSearchString" /> méthode s’applique aux clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</summary>
+        <returns>Représentation sous forme de chaîne de cette boîte aux lettres.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.Mailbox (string smtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.Mailbox op_Implicit(string smtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Mailbox.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.Mailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (smtpAddress As String) As Mailbox" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::Mailbox ^(System::String ^ smtpAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Mailbox</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="smtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="smtpAddress">L’adresse SMTP pour convertir un objet d’adresse de messagerie.</param>
+        <summary>Définit une conversion implicite entre une chaîne qui représente une adresse SMTP et un objet d’adresse de messagerie.</summary>
+        <returns>Une boîte aux lettres initialisé avec l’adresse SMTP spécifiée.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RoutingType">
+      <MemberSignature Language="C#" Value="public string RoutingType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RoutingType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Mailbox.RoutingType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RoutingType As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RoutingType { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit le type de routage de l’adresse qui est utilisé pour faire référence à la boîte aux lettres de l’utilisateur.</summary>
+        <value>Un type de routage.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Mailbox.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Renvoie une chaîne qui représente l’objet boîte aux lettres en cours.</summary>
+        <returns>Représentation sous forme de chaîne d’une boîte aux lettres.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

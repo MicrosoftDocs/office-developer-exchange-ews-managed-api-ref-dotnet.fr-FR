@@ -1,0 +1,121 @@
+<Type Name="RuleError" FullName="Microsoft.Exchange.WebServices.Data.RuleError">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9964aeae30d9d54aa4f965bb260a447e0f36aed7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624479" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RuleError : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RuleError extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RuleError" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RuleError&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RuleError sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente une erreur s’est produite suite à l’exécution d’une opération de règle.</summary>
+    <remarks>
+      <para>Cette classe représente une erreur d’une règle qui a échoué validation des règles.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorCode">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleErrorCode ErrorCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.RuleErrorCode ErrorCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As RuleErrorCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleErrorCode ErrorCode { Microsoft::Exchange::WebServices::Data::RuleErrorCode get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleErrorCode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le code d’erreur de validation.</summary>
+        <value>La valeur d’énumération RuleErrorCode qui est associée à l’erreur.</value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorCode" /> propriété indique l’erreur de validation de règle de code quand une <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> méthode échoue la validation.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorMessage">
+      <MemberSignature Language="C#" Value="public string ErrorMessage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorMessage As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorMessage { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient le message d’erreur qui est associé à l’erreur.</summary>
+        <value>Le message d’erreur qui est associé à l’erreur.</value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.ErrorMessage" /> propriété indique l’erreur de validation de règle de message quand un <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> méthode échoue la validation.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RuleProperty">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleProperty RuleProperty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.RuleProperty RuleProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleError.RuleProperty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RuleProperty As RuleProperty" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleProperty RuleProperty { Microsoft::Exchange::WebServices::Data::RuleProperty get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient la propriété de validation a échoué.</summary>
+        <value>Une valeur d’énumération RuleProperty le spécifie la propriété qui a provoqué l’erreur.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RuleError.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient la valeur de la propriété non valide.</summary>
+        <value>La valeur de la propriété non valide.</value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.RuleError.Value" /> propriété ne peut pas être nulle.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

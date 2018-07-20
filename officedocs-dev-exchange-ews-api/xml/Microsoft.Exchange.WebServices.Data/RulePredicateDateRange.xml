@@ -1,0 +1,78 @@
+<Type Name="RulePredicateDateRange" FullName="Microsoft.Exchange.WebServices.Data.RulePredicateDateRange">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d92e6ab5bf5a147153e5eae764193203f1df390b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624049" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RulePredicateDateRange : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicateDateRange extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicateDateRange&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RulePredicateDateRange sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente la plage de date et d’heure dans laquelle les messages ont été reçus.</summary>
+    <remarks>
+      <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" /> propriété vérifie ce <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> et <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> propriétés.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; End { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" />
+      <MemberSignature Language="VB.NET" Value="Public Property End As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; End { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la date de fin de plage et l’heure.</summary>
+        <value>La fin de la plage de dates.</value>
+        <remarks>
+          <para>Si le <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> propriété est définie sur ne null, aucune end date s’applique.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; Start { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" />
+      <MemberSignature Language="VB.NET" Value="Public Property Start As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; Start { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit la date de début de plage et l’heure.</summary>
+        <value>Le début de la plage de dates.</value>
+        <remarks>
+          <para>Si le <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> propriété a la valeur null, la date de début ne s’applique.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

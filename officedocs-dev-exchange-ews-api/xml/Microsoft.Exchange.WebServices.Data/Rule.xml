@@ -1,0 +1,296 @@
+<Type Name="Rule" FullName="Microsoft.Exchange.WebServices.Data.Rule">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5815ef1faf18a92d498cfbab1936f6f0202e261d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624066" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class Rule : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Rule extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Rule" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Rule&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Rule sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente une règle de boîte de réception individuelle dans la boîte aux lettres.</summary>
+    <remarks>
+      <para>Une règle de boîte de réception est un ensemble de <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />, <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />et <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> qui permettent aux clients d’organiser automatiquement, classer et agir sur les messages que les messages sont remis dans un dossier. Par exemple, un <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> peuvent être créés pour exiger que tout le courrier entrant qui contient une chaîne spécifique dans l’objet être automatiquement déplacés vers un dossier prédéfini. <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> évaluation est déclenchée lorsque les messages sont remis dans la boîte aux lettres d’un utilisateur ou lorsque les messages sont tout d’abord enregistrés dans un dossier. Le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> dans un <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> évalue les propriétés du message entrant. Si le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> évaluer <b>la valeur true</b>, la règle <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> sont exécutées par le serveur.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>L’exemple suivant crée une nouvelle règle et l’enregistre sur le serveur de messagerie. La règle contient un <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> et <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> propriété. Le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> sont : </para>
+      <list type="bullet">
+        <item>
+          <description>le message électronique est envoyé dans le dossier JunkEmail.</description>
+        </item>
+        <item>
+          <description>Affecter une catégorie de « Exécution ».</description>
+        </item>
+        <item>
+          <description>Affecter une catégorie de « Utilisation interne uniquement ».</description>
+        </item>
+      </list>
+      <para>Les <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> sont :</para>
+      <list type="bullet">
+        <item>
+          <description>Le message électronique contient le mot « Intéressant » dans l’objet.</description>
+        </item>
+      </list>
+      <code>// Create an inbox rule.
+// If "Interesting" is in the e-mail's subject, move it into the Junk folder
+// and assign two categories to the message.
+Rule newRule = new Rule();
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.IsEnabled = true;
+
+newRule.Priority = 1;
+newRule.Actions.AssignCategories.Add("Immediate");
+newRule.Actions.AssignCategories.Add("Internal use only.");
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Rule ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Rule.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Rule();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Initialise une nouvelle instance de la classe de règle.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Actions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RuleActions Actions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RuleActions Actions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Actions As RuleActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RuleActions ^ Actions { Microsoft::Exchange::WebServices::Data::RuleActions ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RuleActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient les actions à entreprendre sur un message lorsque les Conditions sont remplies.</summary>
+        <value>Les actions à entreprendre lorsque les Conditions sont remplies.</value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> propriété représente un ensemble de <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> objets représentant les actions exécutées sur un <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> objet lors de la <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> est évaluée à <b>true</b>. A <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> objet possède les propriétés qui correspondent à chaque action couramment utilisée dans un <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Vous pouvez créer un <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> qui permet la <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> contenus dans le <see cref="T:Microsoft.Exchange.WebServices.Data.RuleActions" /> objet.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Conditions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicates Conditions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicates Conditions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conditions As RulePredicates" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicates ^ Conditions { Microsoft::Exchange::WebServices::Data::RulePredicates ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicates</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient les conditions qui lorsque remplies, déclenchera la règle Actions de la règle.</summary>
+        <value>Un RulePredicates avec les conditions de règle.</value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> propriété représentent un <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> objet, qui correspondent à chacune couramment utilisées condition de règle dans une <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Lorsqu’un message électronique arrive, l’ordinateur Exchange Server évalue le message et détermine si elle a rempli la <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> de le <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Si c’est le cas, l’ordinateur Exchange Server traite ensuite le message en fonction de la <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /><see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. Vous pouvez créer une règle qui permet la <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> contenus dans le <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> objet.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit une valeur de type string qui contient le nom complet d’une règle.</summary>
+        <value>Le nom complet de la règle.</value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> propriété est un nom d’affichage non unique de le <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />. Le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> propriété est le nom de la règle tel qu’il est affiché à l’utilisateur. Les <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.DisplayName" /> ne peut pas être définie sur null.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Exceptions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicates Exceptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicates Exceptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Exceptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exceptions As RulePredicates" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicates ^ Exceptions { Microsoft::Exchange::WebServices::Data::RulePredicates ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicates</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient les Exceptions qui représente toutes les conditions d’exception de règle disponibles pour la règle de boîte de réception.</summary>
+        <value>Un RulePredicates avec les exceptions à la règle.</value>
+        <remarks>
+          <para>Le <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> propriété représentent un <see cref="T:Microsoft.Exchange.WebServices.Data.RulePredicates" /> object, qui indique les conditions dans lesquelles les <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> ne doit pas être appliquée.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit l’identificateur de la règle.</summary>
+        <value>L’identificateur de la règle.</value>
+        <remarks>
+          <para>Définition de la <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Id" /> propriété avant une <see cref="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" /> ou un <see cref="T:Microsoft.Exchange.WebServices.Data.SetRuleOperation" /> provoque une exception est levée.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabled">
+      <MemberSignature Language="C#" Value="public bool IsEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEnabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit si la règle est activée.</summary>
+        <value>
+          <b>true</b> si la règle est activée ; Sinon, <b>false</b>. La valeur par défaut est <b>true</b></value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsEnabled" /> propriété spécifie si un <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> est activé... Si la règle n’est pas activée sera ignorée lors d’un message entrant <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> sont remplies et aucune <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> sera effectuée.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsInError">
+      <MemberSignature Language="C#" Value="public bool IsInError { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsInError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsInError As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsInError { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient une valeur qui indique si la règle est une condition d’erreur.</summary>
+        <value>
+          <b>true</b> si la règle est une condition d’erreur ; Sinon, <b>false</b>.</value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsInError" /> propriété spécifie l’état de la règle. A <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> qui contient des erreurs ne peuvent pas être traitées jusqu'à ce que l’erreur a été corrigée.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNotSupported">
+      <MemberSignature Language="C#" Value="public bool IsNotSupported { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNotSupported" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsNotSupported As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNotSupported { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient une valeur qui indique si la règle ne peut pas être modifiée avec l’API du code managé.</summary>
+        <value>
+          <b>true</b> si la règle ne peut pas être modifiée par le code managé API ; Sinon, <b>false</b>.</value>
+        <remarks>
+          <para>Si le <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> propriété est <b>true</b>, les <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> ne peut pas être modifié. Vous pouvez vérifier la valeur de la <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.IsNotSupported" /> avant d’effectuer une <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.UpdateInboxRules(System.Collections.Generic.IEnumerable{Microsoft.Exchange.WebServices.Data.RuleOperation},System.Boolean)" /> méthode.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Priority">
+      <MemberSignature Language="C#" Value="public int Priority { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Priority" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" />
+      <MemberSignature Language="VB.NET" Value="Public Property Priority As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Priority { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient ou définit une valeur qui indique l’ordre dans lequel une règle doit être exécutée de la priorité de la règle.</summary>
+        <value>La valeur qui indique l’ordre d’exécution dans lequel une règle doit être exécutée.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />classes qui ont une priorité plus élevée sont exécutés avant la priorité <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> classes. La valeur par défaut <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> valeur <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> est 0. Lorsqu’un <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> est créée avec le même <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> comme existant <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" />, existant <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> est incrémentée. Une règle <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Priority" /> doit être une valeur positive.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

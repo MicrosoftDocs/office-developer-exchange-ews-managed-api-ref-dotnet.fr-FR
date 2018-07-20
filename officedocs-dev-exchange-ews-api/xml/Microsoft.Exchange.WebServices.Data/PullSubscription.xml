@@ -1,0 +1,195 @@
+<Type Name="PullSubscription" FullName="Microsoft.Exchange.WebServices.Data.PullSubscription">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="df11061c86bdafe4a1ba146330f5528e92ad9429" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623664" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PullSubscription : Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PullSubscription extends Microsoft.Exchange.WebServices.Data.SubscriptionBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PullSubscription" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PullSubscription&#xA;Inherits SubscriptionBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PullSubscription sealed : Microsoft::Exchange::WebServices::Data::SubscriptionBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.SubscriptionBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente un abonnement.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeginGetEvents">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginGetEvents (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginGetEvents(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.BeginGetEvents(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginGetEvents (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginGetEvents(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">Le délégué AsyncCallback.</param>
+        <param name="state">Objet qui contient les informations d’état de cette demande.</param>
+        <summary>Démarre une demande asynchrone pour récupérer les événements latests associés à un abonnement. Cette méthode a été introduite dans l’API managée 1.2 Microsoft Exchange Web Services (EWS).</summary>
+        <returns>Un GetEventsResults contenant une liste des événements associés à l’abonnement.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUnsubscribe">
+      <MemberSignature Language="C#" Value="public IAsyncResult BeginUnsubscribe (AsyncCallback callback, object state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.IAsyncResult BeginUnsubscribe(class System.AsyncCallback callback, object state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.BeginUnsubscribe(System.AsyncCallback,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BeginUnsubscribe (callback As AsyncCallback, state As Object) As IAsyncResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IAsyncResult ^ BeginUnsubscribe(AsyncCallback ^ callback, System::Object ^ state);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IAsyncResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="callback" Type="System.AsyncCallback" />
+        <Parameter Name="state" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="callback">Le délégué AsyncCallback.</param>
+        <param name="state">Objet qui contient les informations d’état de cette demande.</param>
+        <summary>Démarre une demande asynchrone à annuler l’abonnement à partir d’un abonnement. Cette méthode a été introduite dans l’API managée 1.2 Microsoft Exchange Web Services (EWS).</summary>
+        <returns>IAsyncResult qui fait référence à la demande asynchrone.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndGetEvents">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GetEventsResults EndGetEvents (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GetEventsResults EndGetEvents(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.EndGetEvents(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Function EndGetEvents (asyncResult As IAsyncResult) As GetEventsResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GetEventsResults ^ EndGetEvents(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GetEventsResults</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">IAsyncResult qui fait référence à la demande asynchrone.</param>
+        <summary>Termine une requête asynchrone pour récupérer les derniers événements associés à un abonnement. Cette méthode a été introduite dans l’API managée 1.2 Microsoft Exchange Web Services (EWS).</summary>
+        <returns>Un GetEventsResults contenant une liste des événements associés à l’abonnement.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndUnsubscribe">
+      <MemberSignature Language="C#" Value="public void EndUnsubscribe (IAsyncResult asyncResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void EndUnsubscribe(class System.IAsyncResult asyncResult) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.EndUnsubscribe(System.IAsyncResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndUnsubscribe (asyncResult As IAsyncResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndUnsubscribe(IAsyncResult ^ asyncResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="asyncResult" Type="System.IAsyncResult" />
+      </Parameters>
+      <Docs>
+        <param name="asyncResult">IAsyncResult qui fait référence à la demande asynchrone.</param>
+        <summary>Met fin à une demande asynchrone pour annuler l’abonnement à partir d’un abonnement. Cette méthode a été introduite dans l’API managée 1.2 Microsoft Exchange Web Services (EWS).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEvents">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.GetEventsResults GetEvents ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.GetEventsResults GetEvents() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEvents () As GetEventsResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::GetEventsResults ^ GetEvents();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.GetEventsResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Obtient une collection d’événements qui se sont produites dans les dossiers abonnés depuis le point dans le temps qui est définie par le <see cref="P:Microsoft.Exchange.WebServices.Data.SubscriptionBase.Watermark" /> propriété.</summary>
+        <returns>Le <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> méthode retourne une collection d’événements qui se sont produites depuis la dernière filigrane.</returns>
+        <remarks>
+          <para>Lorsque <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> réussit, <see cref="P:Microsoft.Exchange.WebServices.Data.SubscriptionBase.Watermark" /> est mis à jour.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoreEventsAvailable">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; MoreEventsAvailable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; MoreEventsAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PullSubscription.MoreEventsAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoreEventsAvailable As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; MoreEventsAvailable { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient une valeur qui indique si plusieurs événements sont disponibles sur le serveur.</summary>
+        <value>True si plusieurs événements sont disponibles ; Sinon, false.</value>
+        <remarks>
+          <para>Le <see cref="P:Microsoft.Exchange.WebServices.Data.PullSubscription.MoreEventsAvailable" /> propriété n’est pas définie jusqu'à ce que la <see cref="M:Microsoft.Exchange.WebServices.Data.PullSubscription.GetEvents" /> méthode est appelée.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unsubscribe">
+      <MemberSignature Language="C#" Value="public void Unsubscribe ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Unsubscribe() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PullSubscription.Unsubscribe" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Unsubscribe ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Unsubscribe();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Annule l’abonnement à partir de l’abonnement.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
