@@ -1,0 +1,2541 @@
+<Type Name="UserSettingName" FullName="Microsoft.Exchange.WebServices.Autodiscover.UserSettingName">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8e9fe640d527b15368374c3b855135fa7ecc529d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624481" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum UserSettingName" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed UserSettingName extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName" />
+  <TypeSignature Language="VB.NET" Value="Public Enum UserSettingName" />
+  <TypeSignature Language="C++ CLI" Value="public enum class UserSettingName" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="ad205-101">Identifie les paramètres utilisateur à renvoyer dans une opération de découverte automatique Exchange Web Services (EWS).</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ad205-101">Identifies the user settings to be returned in an Exchange Web Services (EWS) autodiscovery operation.</span>
+      </span>
+      <span data-ttu-id="ad205-102">Ces paramètres sont renvoyées par une <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> appel de méthode.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ad205-102">These settings are returned by a <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" />  method call.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ActiveDirectoryServer">
+      <MemberSignature Language="C#" Value="ActiveDirectoryServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ActiveDirectoryServer = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ActiveDirectoryServer" />
+      <MemberSignature Language="VB.NET" Value="ActiveDirectoryServer" />
+      <MemberSignature Language="C++ CLI" Value="ActiveDirectoryServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-103">Le nom du serveur Active Directory (service d’annuaire).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-103">The name of the Active Directory (directory service) server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlternateMailboxes">
+      <MemberSignature Language="C#" Value="AlternateMailboxes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName AlternateMailboxes = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AlternateMailboxes" />
+      <MemberSignature Language="VB.NET" Value="AlternateMailboxes" />
+      <MemberSignature Language="C++ CLI" Value="AlternateMailboxes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-104">Collection d’autres boîtes aux lettres.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-104">A collection of alternate mailboxes.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoDiscoverSMTPAddress">
+      <MemberSignature Language="C#" Value="AutoDiscoverSMTPAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName AutoDiscoverSMTPAddress = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" />
+      <MemberSignature Language="VB.NET" Value="AutoDiscoverSMTPAddress" />
+      <MemberSignature Language="C++ CLI" Value="AutoDiscoverSMTPAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-105">L’adresse de la découverte automatique SMTP Simple Mail Transfer Protocol ().</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-105">The Autodiscover Simple Mail Transfer Protocol (SMTP) address.</span>
+          </span>
+          <span data-ttu-id="ad205-106">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-106">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.AutoDiscoverSMTPAddress" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CasVersion">
+      <MemberSignature Language="C#" Value="CasVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName CasVersion = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.CasVersion" />
+      <MemberSignature Language="VB.NET" Value="CasVersion" />
+      <MemberSignature Language="C++ CLI" Value="CasVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-107">La version du serveur d’accès Client qui sert à la demande spécifiée (par exemple, 14.XX. YYY. ZZZ).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-107">The version of the Client Access server that is serving the specified request (for example, 14.XX.YYY.ZZZ).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CertPrincipalName">
+      <MemberSignature Language="C#" Value="CertPrincipalName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName CertPrincipalName = int32(95)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.CertPrincipalName" />
+      <MemberSignature Language="VB.NET" Value="CertPrincipalName" />
+      <MemberSignature Language="C++ CLI" Value="CertPrincipalName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>95</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-108">Le nom principal de certificat SSL qui est requise pour se connecter à Exchange à l’aide de SSL.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-108">The SSL certificate principal name that is required to connect to Exchange by using SSL.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossOrganizationSharingEnabled">
+      <MemberSignature Language="C#" Value="CrossOrganizationSharingEnabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName CrossOrganizationSharingEnabled = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.CrossOrganizationSharingEnabled" />
+      <MemberSignature Language="VB.NET" Value="CrossOrganizationSharingEnabled" />
+      <MemberSignature Language="C++ CLI" Value="CrossOrganizationSharingEnabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-109">Une valeur indiquant que le partage de l’échelle de l’organisation est activé pour l’utilisateur spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-109">A value indicating that cross-organization sharing is enabled for the specified user.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentSharingLocations">
+      <MemberSignature Language="C#" Value="DocumentSharingLocations" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName DocumentSharingLocations = int32(77)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" />
+      <MemberSignature Language="VB.NET" Value="DocumentSharingLocations" />
+      <MemberSignature Language="C++ CLI" Value="DocumentSharingLocations" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>77</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-110">Contient l’URL et les métadonnées associées à un service web de partage de documents.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-110">Contains the URL and metadata associated with a document-sharing web service.</span>
+          </span>
+          <span data-ttu-id="ad205-111">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-111">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.DocumentSharingLocations" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpConnectUrlFragment">
+      <MemberSignature Language="C#" Value="EcpConnectUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpConnectUrlFragment = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpConnectUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpConnectUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-112">La sous-chaîne de l’URL pour la page du Panneau de configuration Exchange qui gère les abonnements de réseau social.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-112">The URL substring for the Exchange Control Panel page that manages social network subscriptions.</span>
+          </span>
+          <span data-ttu-id="ad205-113">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-113">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpConnectUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpDeliveryReportUrlFragment">
+      <MemberSignature Language="C#" Value="EcpDeliveryReportUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpDeliveryReportUrlFragment = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpDeliveryReportUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpDeliveryReportUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpDeliveryReportUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-114">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la gestion des rapports de remise.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-114">The URL substring of the Exchange Control Panel page for managing delivery reports.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpEmailSubscriptionsUrlFragment">
+      <MemberSignature Language="C#" Value="EcpEmailSubscriptionsUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpEmailSubscriptionsUrlFragment = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpEmailSubscriptionsUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpEmailSubscriptionsUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpEmailSubscriptionsUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-115">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour les abonnements de messagerie.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-115">The URL substring of the Exchange Control Panel page for email subscriptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpExtensionInstallationUrlFragment">
+      <MemberSignature Language="C#" Value="EcpExtensionInstallationUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpExtensionInstallationUrlFragment = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpExtensionInstallationUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpExtensionInstallationUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-116">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour installer les extensions de client.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-116">The URL substring of the Exchange Control Panel page for installing client extensions.</span>
+          </span>
+          <span data-ttu-id="ad205-117">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-117">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpExtensionInstallationUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpPhotoUrlFragment">
+      <MemberSignature Language="C#" Value="EcpPhotoUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpPhotoUrlFragment = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpPhotoUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpPhotoUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-118">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la gestion des photos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-118">The URL substring of the Exchange Control Panel page for managing photos.</span>
+          </span>
+          <span data-ttu-id="ad205-119">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-119">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPhotoUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpPublishingUrlFragment">
+      <MemberSignature Language="C#" Value="EcpPublishingUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpPublishingUrlFragment = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpPublishingUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpPublishingUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpPublishingUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-120">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la publication.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-120">The URL substring of the Exchange Control Panel page for publishing.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpRetentionPolicyTagsUrlFragment">
+      <MemberSignature Language="C#" Value="EcpRetentionPolicyTagsUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpRetentionPolicyTagsUrlFragment = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpRetentionPolicyTagsUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpRetentionPolicyTagsUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpRetentionPolicyTagsUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-121">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la gestion des balises de stratégie de rétention.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-121">The URL substring of the Exchange Control Panel page for managing retention policy tags.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpTeamMailboxCreatingUrlFragment">
+      <MemberSignature Language="C#" Value="EcpTeamMailboxCreatingUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpTeamMailboxCreatingUrlFragment = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpTeamMailboxCreatingUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpTeamMailboxCreatingUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-122">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la création de boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-122">The URL substring of the Exchange Control Panel page for creating site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-123">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-123">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxCreatingUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpTeamMailboxEditingUrlFragment">
+      <MemberSignature Language="C#" Value="EcpTeamMailboxEditingUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpTeamMailboxEditingUrlFragment = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpTeamMailboxEditingUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpTeamMailboxEditingUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-124">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la modification des boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-124">The URL substring of the Exchange Control Panel page for editing site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-125">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-125">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxEditingUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpTeamMailboxUrlFragment">
+      <MemberSignature Language="C#" Value="EcpTeamMailboxUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpTeamMailboxUrlFragment = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpTeamMailboxUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpTeamMailboxUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-126">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la gestion des boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-126">The URL substring of the Exchange Control Panel page for managing site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-127">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-127">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTeamMailboxUrlFragment" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpTextMessagingUrlFragment">
+      <MemberSignature Language="C#" Value="EcpTextMessagingUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpTextMessagingUrlFragment = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpTextMessagingUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpTextMessagingUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpTextMessagingUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-128">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la messagerie texte.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-128">The URL substring of the Exchange Control Panel page for text messaging.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EcpVoicemailUrlFragment">
+      <MemberSignature Language="C#" Value="EcpVoicemailUrlFragment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EcpVoicemailUrlFragment = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EcpVoicemailUrlFragment" />
+      <MemberSignature Language="VB.NET" Value="EcpVoicemailUrlFragment" />
+      <MemberSignature Language="C++ CLI" Value="EcpVoicemailUrlFragment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-129">La sous-chaîne de l’URL de la page du Panneau de configuration Exchange pour la personnalisation de la messagerie vocale.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-129">The URL substring of the Exchange Control Panel page for voice-mail customization.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsPartnerUrl">
+      <MemberSignature Language="C#" Value="EwsPartnerUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EwsPartnerUrl = int32(94)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" />
+      <MemberSignature Language="VB.NET" Value="EwsPartnerUrl" />
+      <MemberSignature Language="C++ CLI" Value="EwsPartnerUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>94</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-130">L’URL de partenaires Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-130">The Exchange Web Services (EWS) partner URL.</span>
+          </span>
+          <span data-ttu-id="ad205-131">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-131">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsPartnerUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EwsSupportedSchemas">
+      <MemberSignature Language="C#" Value="EwsSupportedSchemas" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName EwsSupportedSchemas = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.EwsSupportedSchemas" />
+      <MemberSignature Language="VB.NET" Value="EwsSupportedSchemas" />
+      <MemberSignature Language="C++ CLI" Value="EwsSupportedSchemas" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-132">Une liste séparée par des virgules des versions de schéma pris en charge par EWS.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-132">A comma-separated list of schema versions supported by EWS.</span>
+          </span>
+          <span data-ttu-id="ad205-133">Les valeurs de version de schéma sont les mêmes que les valeurs de l’énumération ExchangeVersion.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-133">The schema version values are the same as the values of the ExchangeVersion enumeration.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExchangeRpcUrl">
+      <MemberSignature Language="C#" Value="ExchangeRpcUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExchangeRpcUrl = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExchangeRpcUrl" />
+      <MemberSignature Language="VB.NET" Value="ExchangeRpcUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExchangeRpcUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-134">L’URL de l’interface (RPC) d’appel de procédure distante pour les versions d’Exchange Server commençant par Exchange Server 2010.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-134">The URL of the remote procedure call (RPC) interface to versions of Exchange Server starting with Exchange Server 2010.</span>
+          </span>
+          <span data-ttu-id="ad205-135">Cette URL est interne au serveur et ne doit ne pas être utilisé par les clients.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-135">This URL is internal to the server and is not to be used by clients.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpConnectUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpConnectUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpConnectUrl = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpConnectUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpConnectUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-136">L’URL externe de la page du Panneau de configuration Exchange pour la gestion des abonnements de réseau social.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-136">The external URL of the Exchange Control Panel page for managing social network subscriptions.</span>
+          </span>
+          <span data-ttu-id="ad205-137">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-137">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpConnectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpDeliveryReportUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpDeliveryReportUrl = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpDeliveryReportUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-138">L’URL externe de la page du Panneau de configuration Exchange pour les rapports de remise.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-138">The external URL of the Exchange Control Panel page for delivery reports.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpEmailSubscriptionsUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpEmailSubscriptionsUrl = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpEmailSubscriptionsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-139">URL de la page du Panneau de configuration Exchange pour les abonnements de messagerie externe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-139">The external URL of the Exchange Control Panel page for email subscriptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpExtensionInstallationUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpExtensionInstallationUrl = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpExtensionInstallationUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-140">URL de la page du Panneau de configuration Exchange pour installer les extensions de client externe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-140">The external URL of the Exchange Control Panel page for installing client extensions.</span>
+          </span>
+          <span data-ttu-id="ad205-141">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-141">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpExtensionInstallationUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpPhotoUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpPhotoUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpPhotoUrl = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpPhotoUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpPhotoUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-142">L’URL externe de la page du Panneau de configuration Exchange des photos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-142">The external URL of the Exchange Control Panel page for photos.</span>
+          </span>
+          <span data-ttu-id="ad205-143">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-143">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPhotoUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpPublishingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpPublishingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpPublishingUrl = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpPublishingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpPublishingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpPublishingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-144">L’URL externe de la page du Panneau de configuration Exchange pour la publication.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-144">The external URL of the Exchange Control Panel page for publishing.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpRetentionPolicyTagsUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpRetentionPolicyTagsUrl = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpRetentionPolicyTagsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-145">L’URL externe de la page du Panneau de configuration Exchange pour la gestion des balises de stratégie de rétention.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-145">The external URL of the Exchange Control Panel page for managing retention policy tags.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTeamMailboxCreatingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTeamMailboxCreatingUrl = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTeamMailboxCreatingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-146">L’URL externe de la page du Panneau de configuration Exchange pour la création de boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-146">The external URL of the Exchange Control Panel page for creating site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-147">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-147">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxCreatingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTeamMailboxEditingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTeamMailboxEditingUrl = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTeamMailboxEditingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-148">L’URL externe de la page du Panneau de configuration Exchange pour la modification des boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-148">The external URL of the Exchange Control Panel page for editing site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-149">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-149">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxEditingUrl" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTeamMailboxHidingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTeamMailboxHidingUrl = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTeamMailboxHidingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-150">L’URL externe de la page du Panneau de configuration Exchange pour masquer des boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-150">The external URL of the Exchange Control Panel page for hiding site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-151">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-151">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxHidingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTeamMailboxUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTeamMailboxUrl = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTeamMailboxUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-152">L’URL externe de la page du Panneau de configuration Exchange pour la gestion des boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-152">The external URL of the Exchange Control Panel page for managing site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-153">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-153">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTeamMailboxUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpTextMessagingUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpTextMessagingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpTextMessagingUrl = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpTextMessagingUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpTextMessagingUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpTextMessagingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-154">L’URL externe de la page du Panneau de configuration Exchange pour la messagerie texte.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-154">The external URL of the Exchange Control Panel page for text messaging.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpUrl = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-155">L’URL externe du Panneau de configuration Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-155">The external URL of the Exchange Control Panel.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEcpVoicemailUrl">
+      <MemberSignature Language="C#" Value="ExternalEcpVoicemailUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEcpVoicemailUrl = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEcpVoicemailUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEcpVoicemailUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEcpVoicemailUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-156">L’URL externe de la page du Panneau de configuration Exchange pour la personnalisation de la messagerie vocale.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-156">The external URL of the Exchange Control Panel page for voice-mail customization.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEmwsUrl">
+      <MemberSignature Language="C#" Value="ExternalEmwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEmwsUrl = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEmwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEmwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-157">L’URL externe du Service Web de gestion Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-157">The external URL of the Exchange Management Web Service.</span>
+          </span>
+          <span data-ttu-id="ad205-158">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-158">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEmwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEwsUrl">
+      <MemberSignature Language="C#" Value="ExternalEwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEwsUrl = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEwsUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalEwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-159">L’externe URL de Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-159">The external URL of Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalEwsVersion">
+      <MemberSignature Language="C#" Value="ExternalEwsVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalEwsVersion = int32(75)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalEwsVersion" />
+      <MemberSignature Language="VB.NET" Value="ExternalEwsVersion" />
+      <MemberSignature Language="C++ CLI" Value="ExternalEwsVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>75</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-160">La version du serveur Exchange Web Services (EWS) externe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-160">The version of the external Exchange Web Services (EWS) server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalImap4Connections">
+      <MemberSignature Language="C#" Value="ExternalImap4Connections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalImap4Connections = int32(71)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalImap4Connections" />
+      <MemberSignature Language="VB.NET" Value="ExternalImap4Connections" />
+      <MemberSignature Language="C++ CLI" Value="ExternalImap4Connections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>71</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-161">La liste des paramètres de connexion externe pour les connexions de protocole IMAP4.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-161">The list of external connection settings for IMAP4 protocol connections.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMailboxServer">
+      <MemberSignature Language="C#" Value="ExternalMailboxServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalMailboxServer = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalMailboxServer" />
+      <MemberSignature Language="VB.NET" Value="ExternalMailboxServer" />
+      <MemberSignature Language="C++ CLI" Value="ExternalMailboxServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-162">Le nom du serveur de boîte aux lettres externe RPC sur HTTP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-162">The name of the RPC-over-HTTP external mailbox server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMailboxServerAuthenticationMethods">
+      <MemberSignature Language="C#" Value="ExternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalMailboxServerAuthenticationMethods = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="VB.NET" Value="ExternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="C++ CLI" Value="ExternalMailboxServerAuthenticationMethods" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-163">Les méthodes d’authentification prises en charge par le serveur externe RPC sur HTTP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-163">The authentication methods that are supported by the RPC-over-HTTP external server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalMailboxServerRequiresSSL">
+      <MemberSignature Language="C#" Value="ExternalMailboxServerRequiresSSL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalMailboxServerRequiresSSL = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalMailboxServerRequiresSSL" />
+      <MemberSignature Language="VB.NET" Value="ExternalMailboxServerRequiresSSL" />
+      <MemberSignature Language="C++ CLI" Value="ExternalMailboxServerRequiresSSL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-164">Une valeur qui indique si le serveur externe RPC sur HTTP requiert le protocole Secure Sockets Layer (SSL).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-164">A value that indicates whether the RPC-over-HTTP external server requires the Secure Sockets Layer (SSL) protocol.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalOABUrl">
+      <MemberSignature Language="C#" Value="ExternalOABUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalOABUrl = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalOABUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalOABUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalOABUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-165">L’URL externe du carnet d’adresses en mode hors connexion (OAB).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-165">The external URL of the offline address book (OAB).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalPhotosUrl">
+      <MemberSignature Language="C#" Value="ExternalPhotosUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalPhotosUrl = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalPhotosUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalPhotosUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-166">L’URL externe de la page des photos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-166">The external URL of the page for photos.</span>
+          </span>
+          <span data-ttu-id="ad205-167">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-167">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPhotosUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalPop3Connections">
+      <MemberSignature Language="C#" Value="ExternalPop3Connections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalPop3Connections = int32(69)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalPop3Connections" />
+      <MemberSignature Language="VB.NET" Value="ExternalPop3Connections" />
+      <MemberSignature Language="C++ CLI" Value="ExternalPop3Connections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>69</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-168">La liste des paramètres de connexion externe pour les connexions de protocole POP3.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-168">The list of external connection settings for POP3 protocol connections.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalServerExclusiveConnect">
+      <MemberSignature Language="C#" Value="ExternalServerExclusiveConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalServerExclusiveConnect = int32(86)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" />
+      <MemberSignature Language="VB.NET" Value="ExternalServerExclusiveConnect" />
+      <MemberSignature Language="C++ CLI" Value="ExternalServerExclusiveConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>86</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-169">Référence utilisée pour se connecter à un serveur Exchange à partir de l’extérieur de l’organisation d’un utilisateur.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-169">A reference used to connect to an Exchange server from outside a user's organization.</span>
+          </span>
+          <span data-ttu-id="ad205-170">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-170">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalServerExclusiveConnect" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalSmtpConnections">
+      <MemberSignature Language="C#" Value="ExternalSmtpConnections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalSmtpConnections = int32(73)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalSmtpConnections" />
+      <MemberSignature Language="VB.NET" Value="ExternalSmtpConnections" />
+      <MemberSignature Language="C++ CLI" Value="ExternalSmtpConnections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>73</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-171">La liste des paramètres de connexion externe pour les connexions de protocole SMTP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-171">The list of external connection settings for SMTP protocol connections.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalUMUrl">
+      <MemberSignature Language="C#" Value="ExternalUMUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalUMUrl = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalUMUrl" />
+      <MemberSignature Language="VB.NET" Value="ExternalUMUrl" />
+      <MemberSignature Language="C++ CLI" Value="ExternalUMUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-172">L’URL externe des services de messagerie unifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-172">The external URL of the Unified Messaging services.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ExternalWebClientUrls">
+      <MemberSignature Language="C#" Value="ExternalWebClientUrls" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ExternalWebClientUrls = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ExternalWebClientUrls" />
+      <MemberSignature Language="VB.NET" Value="ExternalWebClientUrls" />
+      <MemberSignature Language="C++ CLI" Value="ExternalWebClientUrls" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-173">L’URL externes du client Web Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-173">The external URLs of the Exchange Web client.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupingInformation">
+      <MemberSignature Language="C#" Value="GroupingInformation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName GroupingInformation = int32(96)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.GroupingInformation" />
+      <MemberSignature Language="VB.NET" Value="GroupingInformation" />
+      <MemberSignature Language="C++ CLI" Value="GroupingInformation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>96</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-174">La valeur de regroupement qui est utilisée pour la boîte aux lettres de l’utilisateur pour maintenir l’affinité lors de l’abonnement aux notifications entre plusieurs boîtes aux lettres de groupe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-174">The grouping value that is used to group the user's mailbox to maintain affinity when subscribing to notifications across multiple mailboxes.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpConnectUrl">
+      <MemberSignature Language="C#" Value="InternalEcpConnectUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpConnectUrl = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpConnectUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpConnectUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-175">L’URL interne de la page du Panneau de configuration Exchange pour la gestion des abonnements de réseau social.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-175">The internal URL of the Exchange Control Panel page for managing social network subscriptions.</span>
+          </span>
+          <span data-ttu-id="ad205-176">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-176">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpConnectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpDeliveryReportUrl">
+      <MemberSignature Language="C#" Value="InternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpDeliveryReportUrl = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpDeliveryReportUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpDeliveryReportUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-177">L’URL interne de la page du Panneau de configuration Exchange pour les rapports de remise.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-177">The internal URL of the Exchange Control Panel page for delivery reports.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpEmailSubscriptionsUrl">
+      <MemberSignature Language="C#" Value="InternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpEmailSubscriptionsUrl = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpEmailSubscriptionsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpEmailSubscriptionsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-178">L’URL interne de la page du Panneau de configuration Exchange pour les abonnements de messagerie.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-178">The internal URL of the Exchange Control Panel page for email subscriptions.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpExtensionInstallationUrl">
+      <MemberSignature Language="C#" Value="InternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpExtensionInstallationUrl = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpExtensionInstallationUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpExtensionInstallationUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-179">L’URL interne de la page du Panneau de configuration Exchange pour installer les extensions de client.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-179">The internal URL of the Exchange Control Panel page for installing client extensions.</span>
+          </span>
+          <span data-ttu-id="ad205-180">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-180">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpExtensionInstallationUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpPhotoUrl">
+      <MemberSignature Language="C#" Value="InternalEcpPhotoUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpPhotoUrl = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpPhotoUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpPhotoUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-181">L’URL interne de la page du Panneau de configuration Exchange pour les photos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-181">The internal URL of the Exchange Control Panel page for photos.</span>
+          </span>
+          <span data-ttu-id="ad205-182">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-182">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPhotoUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpPublishingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpPublishingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpPublishingUrl = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpPublishingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpPublishingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpPublishingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-183">L’URL interne de la page du Panneau de configuration Exchange pour la publication.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-183">The internal URL of the Exchange Control Panel page for publishing.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpRetentionPolicyTagsUrl">
+      <MemberSignature Language="C#" Value="InternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpRetentionPolicyTagsUrl = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpRetentionPolicyTagsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpRetentionPolicyTagsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-184">L’URL interne de la page du Panneau de configuration Exchange pour les balises de stratégie de rétention.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-184">The internal URL of the Exchange Control Panel page for retention policy tags.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTeamMailboxCreatingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTeamMailboxCreatingUrl = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTeamMailboxCreatingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTeamMailboxCreatingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-185">L’URL interne de la page du Panneau de configuration Exchange pour la création de boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-185">The internal URL of the Exchange Control Panel page for creating site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-186">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-186">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxCreatingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTeamMailboxEditingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTeamMailboxEditingUrl = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTeamMailboxEditingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTeamMailboxEditingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-187">L’URL interne de la page du Panneau de configuration Exchange pour la modification des boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-187">The internal URL of the Exchange Control Panel page for editing site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-188">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-188">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxEditingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTeamMailboxHidingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTeamMailboxHidingUrl = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTeamMailboxHidingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTeamMailboxHidingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-189">L’URL interne de la page du Panneau de configuration Exchange pour masquer des boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-189">The internal URL of the Exchange Control Panel page for hiding site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-190">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-190">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxHidingUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTeamMailboxUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTeamMailboxUrl = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTeamMailboxUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTeamMailboxUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-191">L’URL interne de la page du Panneau de configuration Exchange pour la gestion des boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-191">The internal URL of the Exchange Control Panel page for managing site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-192">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-192">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTeamMailboxUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpTextMessagingUrl">
+      <MemberSignature Language="C#" Value="InternalEcpTextMessagingUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpTextMessagingUrl = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpTextMessagingUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpTextMessagingUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpTextMessagingUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-193">L’URL interne de la page du Panneau de configuration Exchange pour la messagerie texte.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-193">The internal URL of the Exchange Control Panel page for text messaging.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpUrl">
+      <MemberSignature Language="C#" Value="InternalEcpUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpUrl = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-194">L’URL interne du Panneau de configuration Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-194">The internal URL of the Exchange Control Panel.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEcpVoicemailUrl">
+      <MemberSignature Language="C#" Value="InternalEcpVoicemailUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEcpVoicemailUrl = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEcpVoicemailUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEcpVoicemailUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEcpVoicemailUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-195">L’URL interne de la page du Panneau de configuration Exchange pour la personnalisation de la messagerie vocale.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-195">The internal URL of the Exchange Control Panel page for voice-mail customization.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEmwsUrl">
+      <MemberSignature Language="C#" Value="InternalEmwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEmwsUrl = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEmwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEmwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-196">L’URL interne du Service Web de gestion Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-196">The internal URL of the Exchange Management Web Service.</span>
+          </span>
+          <span data-ttu-id="ad205-197">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-197">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEmwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalEwsUrl">
+      <MemberSignature Language="C#" Value="InternalEwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalEwsUrl = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalEwsUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalEwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalEwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-198">L’interne URL de Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-198">The internal URL of Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalImap4Connections">
+      <MemberSignature Language="C#" Value="InternalImap4Connections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalImap4Connections = int32(70)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalImap4Connections" />
+      <MemberSignature Language="VB.NET" Value="InternalImap4Connections" />
+      <MemberSignature Language="C++ CLI" Value="InternalImap4Connections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>70</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-199">La liste des paramètres de connexion interne pour les connexions de protocole IMAP4.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-199">The list of internal connection settings for IMAP4 protocol connections.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalMailboxServer">
+      <MemberSignature Language="C#" Value="InternalMailboxServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalMailboxServer = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServer" />
+      <MemberSignature Language="VB.NET" Value="InternalMailboxServer" />
+      <MemberSignature Language="C++ CLI" Value="InternalMailboxServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-200">Le nom de domaine complet (FQDN) du serveur de boîte aux lettres interne.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-200">The fully qualified domain name (FQDN) of the internal mailbox server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalMailboxServerAuthenticationMethods">
+      <MemberSignature Language="C#" Value="InternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalMailboxServerAuthenticationMethods = int32(79)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="VB.NET" Value="InternalMailboxServerAuthenticationMethods" />
+      <MemberSignature Language="C++ CLI" Value="InternalMailboxServerAuthenticationMethods" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>79</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-201">Les méthodes d’authentification prises en charge par le service de client RPC.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-201">The authentication methods supported by the RPC client service.</span>
+          </span>
+          <span data-ttu-id="ad205-202">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-202">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerAuthenticationMethods" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalMailboxServerDN">
+      <MemberSignature Language="C#" Value="InternalMailboxServerDN" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalMailboxServerDN = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalMailboxServerDN" />
+      <MemberSignature Language="VB.NET" Value="InternalMailboxServerDN" />
+      <MemberSignature Language="C++ CLI" Value="InternalMailboxServerDN" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-203">Le nom unique hérité du serveur de boîte aux lettres interne.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-203">The legacy distinguished name of the internal mailbox server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalOABUrl">
+      <MemberSignature Language="C#" Value="InternalOABUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalOABUrl = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalOABUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalOABUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalOABUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-204">L’URL interne du carnet d’adresses en mode hors connexion (OAB).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-204">The internal URL of the offline address book (OAB).</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalPhotosUrl">
+      <MemberSignature Language="C#" Value="InternalPhotosUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalPhotosUrl = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalPhotosUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalPhotosUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-205">L’URL interne du service photos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-205">The internal URL of the photos service.</span>
+          </span>
+          <span data-ttu-id="ad205-206">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-206">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPhotosUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalPop3Connections">
+      <MemberSignature Language="C#" Value="InternalPop3Connections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalPop3Connections = int32(68)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalPop3Connections" />
+      <MemberSignature Language="VB.NET" Value="InternalPop3Connections" />
+      <MemberSignature Language="C++ CLI" Value="InternalPop3Connections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>68</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-207">La liste des paramètres de connexion interne pour les connexions de protocole POP3.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-207">The list of internal connection settings for POP3 protocol connections.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRpcClientServer">
+      <MemberSignature Language="C#" Value="InternalRpcClientServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalRpcClientServer = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcClientServer" />
+      <MemberSignature Language="VB.NET" Value="InternalRpcClientServer" />
+      <MemberSignature Language="C++ CLI" Value="InternalRpcClientServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-208">Le nom de domaine complet (FQDN) du serveur client RPC.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-208">The fully qualified domain name (FQDN) of the RPC client server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRpcHttpAuthenticationMethod">
+      <MemberSignature Language="C#" Value="InternalRpcHttpAuthenticationMethod" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalRpcHttpAuthenticationMethod = int32(85)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" />
+      <MemberSignature Language="VB.NET" Value="InternalRpcHttpAuthenticationMethod" />
+      <MemberSignature Language="C++ CLI" Value="InternalRpcHttpAuthenticationMethod" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>85</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-209">La méthode d’authentification utilisée pour les connexions RPC/HTTP internes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-209">The authentication method used for internal RPC/HTTP connectivity.</span>
+          </span>
+          <span data-ttu-id="ad205-210">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-210">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpAuthenticationMethod" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRpcHttpConnectivityRequiresSsl">
+      <MemberSignature Language="C#" Value="InternalRpcHttpConnectivityRequiresSsl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalRpcHttpConnectivityRequiresSsl = int32(84)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" />
+      <MemberSignature Language="VB.NET" Value="InternalRpcHttpConnectivityRequiresSsl" />
+      <MemberSignature Language="C++ CLI" Value="InternalRpcHttpConnectivityRequiresSsl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>84</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-211">Indique si le protocole SSL est requis pour la connectivité RPC/HTTP interne.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-211">Indicates whether SSL is required for internal RPC/HTTP connectivity.</span>
+          </span>
+          <span data-ttu-id="ad205-212">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-212">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpConnectivityRequiresSsl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalRpcHttpServer">
+      <MemberSignature Language="C#" Value="InternalRpcHttpServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalRpcHttpServer = int32(83)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" />
+      <MemberSignature Language="VB.NET" Value="InternalRpcHttpServer" />
+      <MemberSignature Language="C++ CLI" Value="InternalRpcHttpServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>83</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-213">Le nom de domaine complet du serveur utilisé pour les connexions RPC/HTTP internes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-213">The fully qualified domain name of the server used for internal RPC/HTTP connectivity.</span>
+          </span>
+          <span data-ttu-id="ad205-214">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-214">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalRpcHttpServer" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalServerExclusiveConnect">
+      <MemberSignature Language="C#" Value="InternalServerExclusiveConnect" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalServerExclusiveConnect = int32(74)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" />
+      <MemberSignature Language="VB.NET" Value="InternalServerExclusiveConnect" />
+      <MemberSignature Language="C++ CLI" Value="InternalServerExclusiveConnect" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>74</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-215">Référence utilisée pour se connecter à un serveur Exchange à partir de l’intérieur de l’organisation d’un utilisateur.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-215">A reference used to connect to an Exchange server from inside a user's organization.</span>
+          </span>
+          <span data-ttu-id="ad205-216">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-216">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalServerExclusiveConnect" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalSmtpConnections">
+      <MemberSignature Language="C#" Value="InternalSmtpConnections" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalSmtpConnections = int32(72)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalSmtpConnections" />
+      <MemberSignature Language="VB.NET" Value="InternalSmtpConnections" />
+      <MemberSignature Language="C++ CLI" Value="InternalSmtpConnections" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>72</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-217">La liste des paramètres de connexion interne pour les connexions de protocole SMTP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-217">The list of internal connection settings for SMTP protocol connections.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalUMUrl">
+      <MemberSignature Language="C#" Value="InternalUMUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalUMUrl = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalUMUrl" />
+      <MemberSignature Language="VB.NET" Value="InternalUMUrl" />
+      <MemberSignature Language="C++ CLI" Value="InternalUMUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-218">L’URL interne de services de messagerie unifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-218">The internal URL of the Unified Messaging services.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternalWebClientUrls">
+      <MemberSignature Language="C#" Value="InternalWebClientUrls" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InternalWebClientUrls = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InternalWebClientUrls" />
+      <MemberSignature Language="VB.NET" Value="InternalWebClientUrls" />
+      <MemberSignature Language="C++ CLI" Value="InternalWebClientUrls" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-219">Une collection de toutes les URL internes du client Web Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-219">A collection of the internal URLs of the Exchange Web client.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InteropExternalEwsUrl">
+      <MemberSignature Language="C#" Value="InteropExternalEwsUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InteropExternalEwsUrl = int32(90)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" />
+      <MemberSignature Language="VB.NET" Value="InteropExternalEwsUrl" />
+      <MemberSignature Language="C++ CLI" Value="InteropExternalEwsUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>90</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-220">Interopérabilité Exchange Web Services (EWS) URL externe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-220">The interoperability external Exchange Web Services (EWS) URL.</span>
+          </span>
+          <span data-ttu-id="ad205-221">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-221">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InteropExternalEwsVersion">
+      <MemberSignature Language="C#" Value="InteropExternalEwsVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName InteropExternalEwsVersion = int32(91)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" />
+      <MemberSignature Language="VB.NET" Value="InteropExternalEwsVersion" />
+      <MemberSignature Language="C++ CLI" Value="InteropExternalEwsVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>91</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-222">La version Exchange Web Services externe de l’interopérabilité.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-222">The interoperability external Exchange Web Services version.</span>
+          </span>
+          <span data-ttu-id="ad205-223">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-223">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.InteropExternalEwsVersion" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxDN">
+      <MemberSignature Language="C#" Value="MailboxDN" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName MailboxDN = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxDN" />
+      <MemberSignature Language="VB.NET" Value="MailboxDN" />
+      <MemberSignature Language="C++ CLI" Value="MailboxDN" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-224">Le nom unique de la base de données de boîtes aux lettres de boîte aux lettres de l’utilisateur.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-224">The distinguished name of the mailbox database of the user's mailbox.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxVersion">
+      <MemberSignature Language="C#" Value="MailboxVersion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName MailboxVersion = int32(80)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" />
+      <MemberSignature Language="VB.NET" Value="MailboxVersion" />
+      <MemberSignature Language="C++ CLI" Value="MailboxVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>80</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-225">La version du serveur Exchange qui héberge la boîte aux lettres de l’utilisateur.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-225">The version of the Exchange server hosting the user's mailbox.</span>
+          </span>
+          <span data-ttu-id="ad205-226">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-226">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MailboxVersion" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MobileMailboxPolicy">
+      <MemberSignature Language="C#" Value="MobileMailboxPolicy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName MobileMailboxPolicy = int32(76)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.MobileMailboxPolicy" />
+      <MemberSignature Language="VB.NET" Value="MobileMailboxPolicy" />
+      <MemberSignature Language="C++ CLI" Value="MobileMailboxPolicy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>76</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-227">Les paramètres de stratégie de boîte aux lettres Mobile.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-227">The Mobile Mailbox policy settings.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicFolderInformation">
+      <MemberSignature Language="C#" Value="PublicFolderInformation" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName PublicFolderInformation = int32(92)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" />
+      <MemberSignature Language="VB.NET" Value="PublicFolderInformation" />
+      <MemberSignature Language="C++ CLI" Value="PublicFolderInformation" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>92</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-228">Les informations de dossier public.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-228">The public folder information.</span>
+          </span>
+          <span data-ttu-id="ad205-229">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-229">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderInformation" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicFolderServer">
+      <MemberSignature Language="C#" Value="PublicFolderServer" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName PublicFolderServer = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.PublicFolderServer" />
+      <MemberSignature Language="VB.NET" Value="PublicFolderServer" />
+      <MemberSignature Language="C++ CLI" Value="PublicFolderServer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-230">Le nom du serveur de dossiers publics.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-230">The name of the public folder server.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectUrl">
+      <MemberSignature Language="C#" Value="RedirectUrl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName RedirectUrl = int32(93)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" />
+      <MemberSignature Language="VB.NET" Value="RedirectUrl" />
+      <MemberSignature Language="C++ CLI" Value="RedirectUrl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>93</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-231">L’URL de redirection.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-231">The redirection URL.</span>
+          </span>
+          <span data-ttu-id="ad205-232">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-232">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.RedirectUrl" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowGalAsDefaultView">
+      <MemberSignature Language="C#" Value="ShowGalAsDefaultView" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName ShowGalAsDefaultView = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" />
+      <MemberSignature Language="VB.NET" Value="ShowGalAsDefaultView" />
+      <MemberSignature Language="C++ CLI" Value="ShowGalAsDefaultView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-233">La liste d’adresses globale (LAG) est utilisée comme l’affichage par défaut.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-233">The global address list (GAL) is used as the default view.</span>
+          </span>
+          <span data-ttu-id="ad205-234">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-234">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.ShowGalAsDefaultView" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SiteMailboxCreationURL">
+      <MemberSignature Language="C#" Value="SiteMailboxCreationURL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName SiteMailboxCreationURL = int32(82)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" />
+      <MemberSignature Language="VB.NET" Value="SiteMailboxCreationURL" />
+      <MemberSignature Language="C++ CLI" Value="SiteMailboxCreationURL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>82</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-235">L’URL pour la création de boîtes aux lettres du site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-235">The URL for creating site mailboxes.</span>
+          </span>
+          <span data-ttu-id="ad205-236">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-236">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SiteMailboxCreationURL" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SPMySiteHostURL">
+      <MemberSignature Language="C#" Value="SPMySiteHostURL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName SPMySiteHostURL = int32(81)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" />
+      <MemberSignature Language="VB.NET" Value="SPMySiteHostURL" />
+      <MemberSignature Language="C++ CLI" Value="SPMySiteHostURL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>81</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-237">L’URL de l’hôte pour un site personnel de Mon Site.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-237">The host URL for a My Site personal site.</span>
+          </span>
+          <span data-ttu-id="ad205-238">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-238">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.SPMySiteHostURL" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDeploymentId">
+      <MemberSignature Language="C#" Value="UserDeploymentId" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName UserDeploymentId = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserDeploymentId" />
+      <MemberSignature Language="VB.NET" Value="UserDeploymentId" />
+      <MemberSignature Language="C++ CLI" Value="UserDeploymentId" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-239">Identificateur de déploiement de l’utilisateur.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-239">The user's deployment identifier.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDisplayName">
+      <MemberSignature Language="C#" Value="UserDisplayName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName UserDisplayName = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserDisplayName" />
+      <MemberSignature Language="VB.NET" Value="UserDisplayName" />
+      <MemberSignature Language="C++ CLI" Value="UserDisplayName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-240">Nom d’affichage de l’utilisateur.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-240">The user's display name.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDN">
+      <MemberSignature Language="C#" Value="UserDN" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName UserDN = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserDN" />
+      <MemberSignature Language="VB.NET" Value="UserDN" />
+      <MemberSignature Language="C++ CLI" Value="UserDN" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-241">Nom unique hérité de l’utilisateur.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-241">The user's legacy distinguished name.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UserMSOnline">
+      <MemberSignature Language="C#" Value="UserMSOnline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName UserMSOnline = int32(78)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" />
+      <MemberSignature Language="VB.NET" Value="UserMSOnline" />
+      <MemberSignature Language="C++ CLI" Value="UserMSOnline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.UserSettingName</ReturnType>
+      </ReturnValue>
+      <MemberValue>78</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ad205-242">Indique si le compte d’utilisateur est un compte de Services en ligne.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-242">Indicates whether the user account is an Online Services account.</span>
+          </span>
+          <span data-ttu-id="ad205-243">Le <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" /> champ n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ad205-243">The <see cref="F:Microsoft.Exchange.WebServices.Autodiscover.UserSettingName.UserMSOnline" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

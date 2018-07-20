@@ -1,0 +1,440 @@
+<Type Name="ServiceObject" FullName="Microsoft.Exchange.WebServices.Data.ServiceObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3d02a59c610ad9d60b7c5fca770338d559e67b8a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624154" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceObject extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceObject abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="04168-101">Représente la classe de base abstraite pour tous les éléments, dossier, conversation et types d’éléments de réponse post.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="04168-101">Represents the base abstract class for all item, folder, conversation, and post item reply types.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetLoadedPropertyDefinitions">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetLoadedPropertyDefinitions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt; GetLoadedPropertyDefinitions() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.GetLoadedPropertyDefinitions" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLoadedPropertyDefinitions () As Collection(Of PropertyDefinitionBase)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^&gt; ^ GetLoadedPropertyDefinitions();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="04168-102">Fournit la collection de définitions de propriétés chargées.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-102">Provides the collection of loaded property definitions.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="04168-103">Collection des définitions de propriétés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-103">A collection of property definitions.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDirty">
+      <MemberSignature Language="C#" Value="public bool IsDirty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDirty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.IsDirty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDirty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDirty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04168-104">Obtient une valeur qui indique si l’objet a été modifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-104">Gets a value that indicates whether the object has been modified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="04168-105">
+            <b>true</b> si l’objet a été modifié ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-105">
+              <b>true</b> if the object has been modified; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNew">
+      <MemberSignature Language="C#" Value="public virtual bool IsNew { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNew" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.IsNew" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property IsNew As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsNew { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04168-106">Indique si cet objet existe dans la base de données Exchange ou si elle est un objet local qui n’a pas été enregistré dans la base de données Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-106">Indicates whether this object exists in the Exchange database or if it is a local object that has not been saved to the Exchange database.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="04168-107">
+            <b>true</b> si l’objet est nouveau et n’a pas été enregistré dans la base de données Exchange ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-107">
+              <b>true</b> if the object is new and has not been saved to the Exchange database; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Item(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(propertyDefinition As PropertyDefinitionBase) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^] { System::Object ^ get(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">
+          <span data-ttu-id="04168-108">La définition de la propriété à obtenir.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-108">The definition of the property to get.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="04168-109">Obtient la valeur de la propriété spécifiée dans cette instance.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-109">Gets the value of the specified property in this instance.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="04168-110">Une propriété.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-110">A property.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Exchange.WebServices.Data.ServiceVersionException">
+          <span data-ttu-id="04168-111">La propriété requiert une version ultérieure de Microsoft Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-111">The property requires a later version of Exchange.</span>
+          </span>
+        </exception>
+        <exception cref="T:Microsoft.Exchange.WebServices.Data.PropertyException">
+          <span data-ttu-id="04168-112">La propriété n’a pas été affectée ou chargée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-112">The property has not been assigned or loaded.</span>
+          </span>
+          <span data-ttu-id="04168-113">- ou -la propriété ne peut pas être mis à jour ou supprimée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-113">-or-The property cannot be updated or deleted.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.Load" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="04168-114">Charge les propriétés de première classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-114">Loads the first-class properties.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="04168-115">
+            <para>L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-115">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="04168-116">Pour plus d’informations sur cette exception, voir <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-116">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Load(class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.Load(Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="propertySet">
+          <span data-ttu-id="04168-117">La propriété est définie à charger.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-117">The property set to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="04168-118">Charge le jeu de propriétés spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-118">Loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="04168-119">
+            <para>L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-119">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="04168-120">Pour plus d’informations sur cette exception, voir <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-120">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Schema">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceObjectSchema Schema { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ServiceObjectSchema Schema" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Schema" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Schema As ServiceObjectSchema" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceObjectSchema ^ Schema { Microsoft::Exchange::WebServices::Data::ServiceObjectSchema ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceObjectSchema</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04168-121">Obtient le schéma qui est associé à ce type d’objet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-121">Gets the schema that is associated with this type of object.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="04168-122">Un objet de schéma de service.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-122">A service object schema.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Service">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExchangeService Service { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExchangeService Service" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceObject.Service" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Service As ExchangeService" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExchangeService ^ Service { Microsoft::Exchange::WebServices::Data::ExchangeService ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExchangeService</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="04168-123">Obtient le service Exchange pour cet objet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-123">Gets the Exchange service for this object.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="04168-124">Un objet de service Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-124">An Exchange service object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetProperty">
+      <MemberSignature Language="C#" Value="public bool TryGetProperty (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, out object propertyValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetProperty(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, [out] object&amp; propertyValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.TryGetProperty(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetProperty (propertyDefinition As PropertyDefinitionBase, ByRef propertyValue As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetProperty(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, [Runtime::InteropServices::Out] System::Object ^ % propertyValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="propertyValue" Type="System.Object&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="propertyDefinition">
+          <span data-ttu-id="04168-125">La définition de la propriété.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-125">The property definition.</span>
+          </span>
+        </param>
+        <param name="propertyValue">
+          <span data-ttu-id="04168-126">La valeur de propriété.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-126">The property value.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="04168-127">Essaie d’obtenir la valeur d’une propriété spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-127">Tries to get the value of a specified property.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="04168-128">
+            <b>true</b> si la propriété a été récupérée ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-128">
+              <b>true</b> if the property was retrieved; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetProperty&lt;T&gt;">
+      <MemberSignature Language="C#" Value="public bool TryGetProperty&lt;T&gt; (Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, out T propertyValue);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetProperty&lt;T&gt;(class Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase propertyDefinition, [out] !!T&amp; propertyValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceObject.TryGetProperty``1(Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase,``0@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetProperty(Of T) (propertyDefinition As PropertyDefinitionBase, ByRef propertyValue As T) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; bool TryGetProperty(Microsoft::Exchange::WebServices::Data::PropertyDefinitionBase ^ propertyDefinition, [Runtime::InteropServices::Out] T % propertyValue);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <TypeParameters>
+        <TypeParameter Name="T" />
+      </TypeParameters>
+      <Parameters>
+        <Parameter Name="propertyDefinition" Type="Microsoft.Exchange.WebServices.Data.PropertyDefinitionBase" />
+        <Parameter Name="propertyValue" Type="T&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <typeparam name="T">
+          <span data-ttu-id="04168-129">Le type de valeur de la propriété attendue.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-129">The type of expected property value.</span>
+          </span>
+        </typeparam>
+        <param name="propertyDefinition">
+          <span data-ttu-id="04168-130">La définition de la propriété.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-130">The property definition.</span>
+          </span>
+        </param>
+        <param name="propertyValue">
+          <span data-ttu-id="04168-131">La valeur de propriété.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-131">The property value.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="04168-132">Essaie d’obtenir la valeur d’une propriété spécifiée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-132">Tries to get the value of a specified property.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="04168-133">
+            <b>true</b> si la propriété a été récupérée ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="04168-133">
+              <b>true</b> if the property was retrieved; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

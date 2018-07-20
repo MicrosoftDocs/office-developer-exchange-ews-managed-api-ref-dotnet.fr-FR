@@ -1,0 +1,276 @@
+<Type Name="EntityExtractionResult" FullName="Microsoft.Exchange.WebServices.Data.EntityExtractionResult">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e2fba76651261e9fbe9fe2a5cd06ad97f06271f1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623841" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class EntityExtractionResult : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EntityExtractionResult extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EntityExtractionResult&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EntityExtractionResult sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="31a6a-101">Contient des informations extraites d’un message, une tâche ou une réunion.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="31a6a-101">Contains information extracted from a message, task, or meeting.</span>
+      </span>
+      <span data-ttu-id="31a6a-102">Le <see cref="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="31a6a-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.EntityExtractionResult" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Addresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AddressEntityCollection Addresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AddressEntityCollection Addresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Addresses As AddressEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AddressEntityCollection ^ Addresses { Microsoft::Exchange::WebServices::Data::AddressEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AddressEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="31a6a-103">Obtient l’ensemble d’adresses renvoyé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-103">Gets the set of addresses returned.</span>
+          </span>
+          <span data-ttu-id="31a6a-104">Le <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Addresses" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="31a6a-105">Les adresses extraits.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-105">The extracted addresses.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ContactEntityCollection Contacts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ContactEntityCollection Contacts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Contacts As ContactEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ContactEntityCollection ^ Contacts { Microsoft::Exchange::WebServices::Data::ContactEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ContactEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="31a6a-106">Obtient l’ensemble de contacts retournés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-106">Gets the set of contacts returned.</span>
+          </span>
+          <span data-ttu-id="31a6a-107">Le <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Contacts" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="31a6a-108">Les contacts extraits.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-108">The extracted contacts.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection EmailAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection EmailAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EmailAddresses As EmailAddressEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressEntityCollection ^ EmailAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="31a6a-109">Obtient l’ensemble des adresses de messagerie renvoyé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-109">Gets the set of email addresses returned.</span>
+          </span>
+          <span data-ttu-id="31a6a-110">Le <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.EmailAddresses" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="31a6a-111">Les adresses de messagerie extraits.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-111">The extracted email addresses.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingSuggestions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection MeetingSuggestions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection MeetingSuggestions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingSuggestions As MeetingSuggestionCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingSuggestionCollection ^ MeetingSuggestions { Microsoft::Exchange::WebServices::Data::MeetingSuggestionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingSuggestionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="31a6a-112">Obtient l’ensemble des suggestions de réunion renvoyée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-112">Gets the set of meeting suggestions returned.</span>
+          </span>
+          <span data-ttu-id="31a6a-113">Le <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.MeetingSuggestions" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="31a6a-114">Les suggestions de réunion extraits.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-114">The extracted meeting suggestions.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PhoneEntityCollection PhoneNumbers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PhoneEntityCollection PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PhoneNumbers As PhoneEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PhoneEntityCollection ^ PhoneNumbers { Microsoft::Exchange::WebServices::Data::PhoneEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PhoneEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="31a6a-115">Obtient l’ensemble des numéros de téléphone renvoyés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-115">Gets the set of phone numbers returned.</span>
+          </span>
+          <span data-ttu-id="31a6a-116">Le <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-116">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.PhoneNumbers" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="31a6a-117">Les numéros de téléphone extraits.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-117">The extracted phone numbers.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskSuggestions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection TaskSuggestions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection TaskSuggestions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TaskSuggestions As TaskSuggestionCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TaskSuggestionCollection ^ TaskSuggestions { Microsoft::Exchange::WebServices::Data::TaskSuggestionCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TaskSuggestionCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="31a6a-118">Obtient l’ensemble des suggestions de tâche renvoyé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-118">Gets the set of task suggestions returned.</span>
+          </span>
+          <span data-ttu-id="31a6a-119">Le <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.TaskSuggestions" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="31a6a-120">Les suggestions de tâche extraits.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-120">The extracted task suggestions.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Urls">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UrlEntityCollection Urls { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UrlEntityCollection Urls" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Urls As UrlEntityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UrlEntityCollection ^ Urls { Microsoft::Exchange::WebServices::Data::UrlEntityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UrlEntityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="31a6a-121">Obtient l’ensemble des URL renvoyées.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-121">Gets the set of URLs returned.</span>
+          </span>
+          <span data-ttu-id="31a6a-122">Le <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.EntityExtractionResult.Urls" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="31a6a-123">Les URL extraits.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="31a6a-123">The extracted URLs.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

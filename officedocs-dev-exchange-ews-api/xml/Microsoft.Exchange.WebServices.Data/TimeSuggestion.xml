@@ -1,0 +1,154 @@
+<Type Name="TimeSuggestion" FullName="Microsoft.Exchange.WebServices.Data.TimeSuggestion">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e5f918009aee68c0d72fdd51ce606258ea61f258" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623904" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class TimeSuggestion : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit TimeSuggestion extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.TimeSuggestion" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class TimeSuggestion&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TimeSuggestion sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="42eb5-101">Représente une suggestion de temps de disponibilité.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="42eb5-101">Represents an availability time suggestion.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Conflicts">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conflict&gt; Conflicts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.Conflict&gt; Conflicts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conflicts As Collection(Of Conflict)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conflict ^&gt; ^ Conflicts { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conflict ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conflict&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="42eb5-102">Obtient une collection de réunions en conflit à l’heure de réunion proposée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="42eb5-102">Gets a collection of conflicting meetings for the suggested meeting time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="42eb5-103">La valeur de la <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" /> propriété est un <a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collections.ObjectModel.Collection&lt;T&gt; </a><see cref="T:Microsoft.Exchange.WebServices.Data.Conflict" /> objets qui représentent des conflits avec l’heure de réunion proposée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="42eb5-103">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Conflicts" /> property is a <a href="http://go.microsoft.com/fwlink/?LinkId=164020">T:System.Collections.ObjectModel.Collection&lt;T&gt;</a><see cref="T:Microsoft.Exchange.WebServices.Data.Conflict" /> objects that represent conflicts with the suggested meeting time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsWorkTime">
+      <MemberSignature Language="C#" Value="public bool IsWorkTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsWorkTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsWorkTime As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsWorkTime { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="42eb5-104">Obtient une valeur qui indique si l’heure de réunion proposée dans les heures de travail de la boîte aux lettres.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="42eb5-104">Gets a value that indicates whether the suggested meeting time is within the mailbox's working hours.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="42eb5-105">La valeur de la <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" /> propriété est un <a href="http://go.microsoft.com/fwlink/?LinkId=162619">t : System.Boolean</a> si l’heure de la réunion se trouve dans les heures de travail de la boîte aux lettres ; dans le cas contraire, la valeur est <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="42eb5-105">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.IsWorkTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkId=162619">T:System.Boolean</a> if the meeting time is within the mailbox's working hours; otherwise, the value is <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingTime">
+      <MemberSignature Language="C#" Value="public DateTime MeetingTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime MeetingTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime MeetingTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="42eb5-106">Obtient l’heure de réunion proposée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="42eb5-106">Gets the suggested meeting time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="42eb5-107">La valeur de la <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" /> propriété est un <a href="http://go.microsoft.com/fwlink/?LinkID=162616">t : System.DateTime</a></span>
+          <span class="sxs-lookup">
+            <span data-stu-id="42eb5-107">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.MeetingTime" /> property is a  <a href="http://go.microsoft.com/fwlink/?LinkID=162616">T:System.DateTime</a></span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quality">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SuggestionQuality Quality { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.SuggestionQuality Quality" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Quality As SuggestionQuality" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::SuggestionQuality Quality { Microsoft::Exchange::WebServices::Data::SuggestionQuality get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SuggestionQuality</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="42eb5-108">Obtient la qualité de l’heure de réunion proposée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="42eb5-108">Gets the quality of the suggested meeting time.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="42eb5-109">La valeur de la <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" /> propriété est un <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> objet l’indique la qualité de l’heure de réunion proposée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="42eb5-109">The value of the <see cref="P:Microsoft.Exchange.WebServices.Data.TimeSuggestion.Quality" /> property is a <see cref="T:Microsoft.Exchange.WebServices.Data.SuggestionQuality" /> object the indicates the quality of the suggested meeting time.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

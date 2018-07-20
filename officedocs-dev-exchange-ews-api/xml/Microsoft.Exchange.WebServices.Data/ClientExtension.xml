@@ -1,0 +1,547 @@
+<Type Name="ClientExtension" FullName="Microsoft.Exchange.WebServices.Data.ClientExtension">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="206a1bb75a365473bd19cf7621c3d5b30082368b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624213" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ClientExtension : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ClientExtension extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientExtension" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ClientExtension&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientExtension sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="e2033-101">Définit une référence à un objet d’extension de client.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e2033-101">Defines a reference to a client extension object.</span>
+      </span>
+      <span data-ttu-id="e2033-102">Le <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="e2033-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientExtension (Microsoft.Exchange.WebServices.Data.ExtensionType type, Microsoft.Exchange.WebServices.Data.ExtensionInstallScope scope, System.IO.Stream manifestStream, string marketplaceAssetID, string marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo providedTo, Microsoft.Exchange.WebServices.Data.StringList specificUsers, string appStatus, string etoken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.ExtensionType type, valuetype Microsoft.Exchange.WebServices.Data.ExtensionInstallScope scope, class System.IO.Stream manifestStream, string marketplaceAssetID, string marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, valuetype Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo providedTo, class Microsoft.Exchange.WebServices.Data.StringList specificUsers, string appStatus, string etoken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (type As ExtensionType, scope As ExtensionInstallScope, manifestStream As Stream, marketplaceAssetID As String, marketplaceContentMarket As String, isAvailable As Boolean, isMandatory As Boolean, isEnabledByDefault As Boolean, providedTo As ClientExtensionProvidedTo, specificUsers As StringList, appStatus As String, etoken As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClientExtension(Microsoft::Exchange::WebServices::Data::ExtensionType type, Microsoft::Exchange::WebServices::Data::ExtensionInstallScope scope, System::IO::Stream ^ manifestStream, System::String ^ marketplaceAssetID, System::String ^ marketplaceContentMarket, bool isAvailable, bool isMandatory, bool isEnabledByDefault, Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo providedTo, Microsoft::Exchange::WebServices::Data::StringList ^ specificUsers, System::String ^ appStatus, System::String ^ etoken);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="type" Type="Microsoft.Exchange.WebServices.Data.ExtensionType" />
+        <Parameter Name="scope" Type="Microsoft.Exchange.WebServices.Data.ExtensionInstallScope" />
+        <Parameter Name="manifestStream" Type="System.IO.Stream" />
+        <Parameter Name="marketplaceAssetID" Type="System.String" />
+        <Parameter Name="marketplaceContentMarket" Type="System.String" />
+        <Parameter Name="isAvailable" Type="System.Boolean" />
+        <Parameter Name="isMandatory" Type="System.Boolean" />
+        <Parameter Name="isEnabledByDefault" Type="System.Boolean" />
+        <Parameter Name="providedTo" Type="Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo" />
+        <Parameter Name="specificUsers" Type="Microsoft.Exchange.WebServices.Data.StringList" />
+        <Parameter Name="appStatus" Type="System.String" />
+        <Parameter Name="etoken" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="type">
+          <span data-ttu-id="e2033-103">Le type d’extension.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-103">The extension type.</span>
+          </span>
+        </param>
+        <param name="scope">
+          <span data-ttu-id="e2033-104">L’extension Installation étendue.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-104">The extension install scope.</span>
+          </span>
+        </param>
+        <param name="manifestStream">
+          <span data-ttu-id="e2033-105">Le flux de manifeste ; peut être null.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-105">The manifest stream; can be null.</span>
+          </span>
+        </param>
+        <param name="marketplaceAssetID">
+          <span data-ttu-id="e2033-106">Le code d’actif pour Office Marketplace.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-106">The asset ID for Office Marketplace.</span>
+          </span>
+        </param>
+        <param name="marketplaceContentMarket">
+          <span data-ttu-id="e2033-107">Le contenu marché pour Office Marketplace.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-107">The content market for Office Marketplace.</span>
+          </span>
+        </param>
+        <param name="isAvailable">
+          <span data-ttu-id="e2033-108">
+            <b>true</b> si l’extension est disponible ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-108">
+              <b>true</b> if the extension is available; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="isMandatory">
+          <span data-ttu-id="e2033-109">
+            <b>true</b> si l’extension est obligatoire ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-109">
+              <b>true</b> if the extension is mandatory; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="isEnabledByDefault">
+          <span data-ttu-id="e2033-110">
+            <b>true</b> si l’extension est activée par défaut ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-110">
+              <b>true</b> if the extension is enabled by default; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <param name="providedTo">
+          <span data-ttu-id="e2033-111">L’appartenance au groupe d’organisation.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-111">The organizational group membership.</span>
+          </span>
+        </param>
+        <param name="specificUsers">
+          <span data-ttu-id="e2033-112">La liste d’extension des utilisateurs est prévue ; peut être null.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-112">The list of users extension is provided for; can be null.</span>
+          </span>
+        </param>
+        <param name="appStatus">
+          <span data-ttu-id="e2033-113">État de l’application.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-113">The app's status.</span>
+          </span>
+        </param>
+        <param name="etoken">
+          <span data-ttu-id="e2033-114">Le jeton droit de l’application.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-114">The entitlement token for the app.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="e2033-115">Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> classe. Le <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> méthode s’applique aux clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-115">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.ClientExtension" /> class.The <see cref="M:Microsoft.Exchange.WebServices.Data.ClientExtension.#ctor(Microsoft.Exchange.WebServices.Data.ExtensionType,Microsoft.Exchange.WebServices.Data.ExtensionInstallScope,System.IO.Stream,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo,Microsoft.Exchange.WebServices.Data.StringList,System.String,System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AppStatus">
+      <MemberSignature Language="C#" Value="public string AppStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AppStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Property AppStatus As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AppStatus { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-116">Obtient ou définit l’état de l’application. Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par 15.00.0847.032.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-116">Gets or sets the app status.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.AppStatus" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Etoken">
+      <MemberSignature Language="C#" Value="public string Etoken { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Etoken" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" />
+      <MemberSignature Language="VB.NET" Value="Public Property Etoken As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Etoken { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-117">Obtient ou définit le jeton de droits de l’application. Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par 15.00.0847.032.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-117">Gets or sets the entitlement token for the app.The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Etoken" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with 15.00.0847.032.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAvailable">
+      <MemberSignature Language="C#" Value="public bool IsAvailable { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAvailable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAvailable As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAvailable { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-118">Obtient ou définit la valeur qui indique si l’extension est disponible.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-118">Gets or sets the value indicating whether the extension is available.</span>
+          </span>
+          <span data-ttu-id="e2033-119">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsAvailable" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-120">
+            <b>true</b> si l’extension est disponible ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-120">
+              <b>true</b> if the extension is available; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEnabledByDefault">
+      <MemberSignature Language="C#" Value="public bool IsEnabledByDefault { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabledByDefault" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEnabledByDefault As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEnabledByDefault { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-121">Obtient ou définit la valeur qui indique si l’extension est activée par défaut.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-121">Gets or sets the value indicating whether the extension is enabled by default.</span>
+          </span>
+          <span data-ttu-id="e2033-122">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-122">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsEnabledByDefault" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-123">
+            <b>true</b> si l’extension est activée par défaut ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-123">
+              <b>true</b> if the extension is enabled by default; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMandatory">
+      <MemberSignature Language="C#" Value="public bool IsMandatory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMandatory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMandatory As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMandatory { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-124">Obtient ou définit la valeur qui indique si l’extension est requise.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-124">Gets or sets the value indicating whether the extension is required.</span>
+          </span>
+          <span data-ttu-id="e2033-125">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-125">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.IsMandatory" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-126">
+            <b>true</b> si l’extension est obligatoire ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-126">
+              <b>true</b> if the extension is mandatory; otherwise <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManifestStream">
+      <MemberSignature Language="C#" Value="public System.IO.Stream ManifestStream { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.IO.Stream ManifestStream" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManifestStream As Stream" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::IO::Stream ^ ManifestStream { System::IO::Stream ^ get(); void set(System::IO::Stream ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-127">Obtient ou définit le flux de manifeste d’extension.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-127">Gets or sets the extension manifest stream.</span>
+          </span>
+          <span data-ttu-id="e2033-128">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-128">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ManifestStream" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-129">Le flux de manifeste de l’extension.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-129">The extension manifest stream.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarketplaceAssetID">
+      <MemberSignature Language="C#" Value="public string MarketplaceAssetID { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MarketplaceAssetID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarketplaceAssetID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MarketplaceAssetID { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-130">Obtient ou définit l’ID de biens pour Office Marketplace.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-130">Gets or sets the asset ID for Office Marketplace.</span>
+          </span>
+          <span data-ttu-id="e2033-131">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-131">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceAssetID" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-132">Le code d’actif pour Office Marketplace.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-132">The asset ID for Office Marketplace.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarketplaceContentMarket">
+      <MemberSignature Language="C#" Value="public string MarketplaceContentMarket { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MarketplaceContentMarket" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarketplaceContentMarket As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MarketplaceContentMarket { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-133">Obtient ou définit le contenu de site marketplace.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-133">Gets or sets the marketplace content.</span>
+          </span>
+          <span data-ttu-id="e2033-134">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-134">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.MarketplaceContentMarket" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-135">Le contenu de site marketplace.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-135">The marketplace content.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProvidedTo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo ProvidedTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo ProvidedTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProvidedTo As ClientExtensionProvidedTo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo ProvidedTo { Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo get(); void set(Microsoft::Exchange::WebServices::Data::ClientExtensionProvidedTo value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientExtensionProvidedTo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-136">Obtient ou définit l’appartenance au groupe d’organisation qui peut accéder à l’extension.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-136">Gets or sets the organizational group membership that can access the extension.</span>
+          </span>
+          <span data-ttu-id="e2033-137">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-137">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.ProvidedTo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-138">Extension de la valeur ProvidedTo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-138">The extension ProvidedTo value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtensionInstallScope Scope { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExtensionInstallScope Scope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public Property Scope As ExtensionInstallScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtensionInstallScope Scope { Microsoft::Exchange::WebServices::Data::ExtensionInstallScope get(); void set(Microsoft::Exchange::WebServices::Data::ExtensionInstallScope value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionInstallScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-139">Obtient ou définit l’étendue de l’extension.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-139">Gets or sets the extension scope.</span>
+          </span>
+          <span data-ttu-id="e2033-140">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-140">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Scope" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-141">L’étendue de l’extension.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-141">The extension scope.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecificUsers">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList SpecificUsers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList SpecificUsers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpecificUsers As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ SpecificUsers { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-142">Obtient ou définit la liste des utilisateurs que cette extension est fournie.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-142">Gets or sets the user list this extension is provided to.</span>
+          </span>
+          <span data-ttu-id="e2033-143">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-143">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.SpecificUsers" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-144">Une liste d’utilisateurs à laquelle cette extension est fournie.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-144">A list of users to which this extension is provided.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtensionType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ExtensionType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As ExtensionType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtensionType Type { Microsoft::Exchange::WebServices::Data::ExtensionType get(); void set(Microsoft::Exchange::WebServices::Data::ExtensionType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtensionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="e2033-145">Obtient ou définit le type d’extension.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-145">Gets or sets the extension type.</span>
+          </span>
+          <span data-ttu-id="e2033-146">Le <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-146">The <see cref="P:Microsoft.Exchange.WebServices.Data.ClientExtension.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="e2033-147">Le type d’extension.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="e2033-147">The extension type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

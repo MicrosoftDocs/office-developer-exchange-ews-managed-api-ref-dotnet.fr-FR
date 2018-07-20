@@ -1,0 +1,2378 @@
+<Type Name="Item" FullName="Microsoft.Exchange.WebServices.Data.Item">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a9d35ee70706eee13a079ef35de7919ef6d6df6e" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624171" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class Item : Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Item extends Microsoft.Exchange.WebServices.Data.ServiceObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.Item" />
+  <TypeSignature Language="VB.NET" Value="Public Class Item&#xA;Inherits ServiceObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class Item : Microsoft::Exchange::WebServices::Data::ServiceObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObject</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="21062-101">Représente un élément générique.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="21062-101">Represents a generic item.</span>
+      </span>
+      <span data-ttu-id="21062-102">Propriétés qui sont disponibles sur les éléments sont définies dans le <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> classe. Le <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> type n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="21062-102">Properties that are available on items are defined in the <see cref="T:Microsoft.Exchange.WebServices.Data.ItemSchema" /> class.The <see cref="T:Microsoft.Exchange.WebServices.Data.Item" /> type is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowedResponseActions">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ResponseActions AllowedResponseActions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.AllowedResponseActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowedResponseActions As ResponseActions" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ResponseActions AllowedResponseActions { Microsoft::Exchange::WebServices::Data::ResponseActions get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ResponseActions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-103">Obtient une valeur qui indique les actions de réponse sont autorisées sur cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-103">Gets a value that indicates which response actions are allowed on this item.</span>
+          </span>
+          <span data-ttu-id="21062-104">Répondre et transférer sont des exemples d’actions de réponse.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-104">Examples of response actions are Reply and Forward.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-105">Valeur d’énumération ResponseActions.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-105">A ResponseActions enumeration value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ArchiveTag ArchiveTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArchiveTag As ArchiveTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ArchiveTag ^ ArchiveTag { Microsoft::Exchange::WebServices::Data::ArchiveTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::ArchiveTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ArchiveTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-106">Obtient ou définit la balise d’archivage.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-106">Gets or sets the archive tag.</span>
+          </span>
+          <span data-ttu-id="21062-107">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.ArchiveTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-108">La balise d’archivage.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-108">The archive tag.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Attachments">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.AttachmentCollection Attachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Attachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Attachments As AttachmentCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ Attachments { Microsoft::Exchange::WebServices::Data::AttachmentCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.AttachmentCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-109">Obtient la liste des pièces jointes à cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-109">Gets a list of the attachments to this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-110">Un objet AttachmentCollection.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-110">An AttachmentCollection object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="21062-111">Le service à utiliser pour lier à l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-111">The service to use to bind to the item.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="21062-112">ID de l’élément à lier.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-112">The ID of the item to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-113">Établit une liaison à un élément existant, quel que soit son réel type est et charge ses propriétés de première classes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-113">Binds to an existing item, whatever its actual type is, and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="21062-114">L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-114">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="21062-115">Une instance de l’élément représentant l’élément qui correspond à l’ID spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-115">An Item instance representing the item that corresponds to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="21062-116">Pour plus d’informations sur cette exception, voir <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-116">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.Item Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.Item Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::Item ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="21062-117">Le service à utiliser pour lier à l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-117">The service to use to bind to the item.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="21062-118">ID de l’élément à lier.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-118">The ID of the item to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="21062-119">Le jeu de propriétés à charger.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-119">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-120">Établit une liaison à un élément existant, quel que soit son réel type est et charge le jeu de propriétés spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-120">Binds to an existing item, whatever its actual type is, and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="21062-121">Une instance de l’élément qui représente l’élément correspondant à l’ID spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-121">An Item instance representing the item corresponding to the specified ID.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <span data-ttu-id="21062-122">Pour plus d’informations sur cette exception, voir <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-122">For details about this exception, see <see cref="M:Microsoft.Exchange.WebServices.Data.Appointment.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Body">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MessageBody Body { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MessageBody Body" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Body" />
+      <MemberSignature Language="VB.NET" Value="Public Property Body As MessageBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MessageBody ^ Body { Microsoft::Exchange::WebServices::Data::MessageBody ^ get(); void set(Microsoft::Exchange::WebServices::Data::MessageBody ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MessageBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-123">Obtient ou définit le corps de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-123">Gets or sets the body of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-124">Un objet de l’élément MessageBody.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-124">A MessageBody object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); void set(Microsoft::Exchange::WebServices::Data::StringList ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-125">Obtient ou définit la liste des catégories qui sont associés à cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-125">Gets or sets the list of categories that are associated with this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-126">Un objet StringList.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-126">A StringList object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ConversationId ConversationId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ConversationId ConversationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ConversationId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConversationId As ConversationId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ConversationId ^ ConversationId { Microsoft::Exchange::WebServices::Data::ConversationId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ConversationId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-127">Obtient l’ID de la conversation faisant partie de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-127">Gets the ID of the conversation that this item is part of.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-128">Un objet ConversationId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-128">A ConversationId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="21062-129">L’ID du dossier dans lequel vous souhaitez créer une copie de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-129">The ID of the folder in which to create a copy of this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-130">Crée une copie de cet élément dans le dossier spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-130">Creates a copy of this item in the specified folder.</span>
+          </span>
+          <span data-ttu-id="21062-131">L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-131">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="21062-132">Un objet d’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-132">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Copy (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Copy(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Copy(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Copy(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="21062-133">Le nom du dossier dans lequel vous souhaitez créer une copie de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-133">The name of the folder in which to create a copy of this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-134">Crée une copie de cet élément dans le dossier spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-134">Creates a copy of this item in the specified folder.</span>
+          </span>
+          <span data-ttu-id="21062-135">L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-135">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="21062-136">Un objet d’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-136">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public string Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Culture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Culture { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-137">Obtient ou définit la culture qui est associée à cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-137">Gets or sets the culture that is associated with this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-138">Chaîne indiquant la culture de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-138">A string indicating the culture of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeCreated">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeCreated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeCreated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeCreated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeCreated As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeCreated { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-139">Obtient la date et l’heure à laquelle cet élément a été créé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-139">Gets the date and time at which this item was created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-140">Une valeur DateTime qui indique la date et l’heure, l’élément a été créé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-140">A DateTime value indicating the date and time the item was created.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeReceived">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeReceived { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeReceived" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeReceived" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeReceived As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeReceived { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-141">Obtient l’heure à laquelle cet élément a été reçu.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-141">Gets the time when this item was received.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-142">Une valeur DateTime qui indique la date et l’heure de réception de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-142">A DateTime value indicating the date and time the item was received.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DateTimeSent">
+      <MemberSignature Language="C#" Value="public DateTime DateTimeSent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime DateTimeSent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DateTimeSent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DateTimeSent As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime DateTimeSent { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-143">Obtient la date et l’heure à laquelle cet élément a été envoyé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-143">Gets the date and time at which this item was sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-144">Une valeur DateTime qui indique la date et l’heure, l’élément a été envoyé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-144">A DateTime value indicating the date and time the item was sent.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="21062-145">Le mode de suppression.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-145">The deletion mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-146">Supprime l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-146">Deletes the item.</span>
+          </span>
+          <span data-ttu-id="21062-147">L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-147">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete (Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Delete(valuetype Microsoft.Exchange.WebServices.Data.DeleteMode deleteMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Delete(Microsoft.Exchange.WebServices.Data.DeleteMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete(Microsoft::Exchange::WebServices::Data::DeleteMode deleteMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deleteMode" Type="Microsoft.Exchange.WebServices.Data.DeleteMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="deleteMode">
+          <span data-ttu-id="21062-148">Le mode de suppression.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-148">The deletion mode.</span>
+          </span>
+        </param>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="21062-149">
+            <b>la valeur true</b> si les encaissements ne doivent pas être envoyés si l’élément en cours de suppression de lecture a demandé une confirmation de lecture ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-149">
+              <b>true</b> if read receipts should not be sent if the item being deleted has requested a read receipt; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-150">Supprime l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-150">Deletes the item.</span>
+          </span>
+          <span data-ttu-id="21062-151">L’appel de cette méthode entraîne un appel à EWS.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-151">Calling this method results in a call to EWS.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayCc">
+      <MemberSignature Language="C#" Value="public string DisplayCc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayCc" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayCc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayCc As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayCc { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-152">Obtient une chaîne de texte qui répertorie les destinataires Cc de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-152">Gets a text string that lists the Cc recipients of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-153">Une valeur de type string.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-153">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayTo">
+      <MemberSignature Language="C#" Value="public string DisplayTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.DisplayTo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayTo { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-154">Obtient une chaîne de texte qui répertorie les destinataires de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-154">Gets a text string that lists the To recipients of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-155">Une valeur de type string.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-155">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.EffectiveRights EffectiveRights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EffectiveRights As EffectiveRights" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EffectiveRights EffectiveRights { Microsoft::Exchange::WebServices::Data::EffectiveRights get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EffectiveRights</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-156">Obtient une valeur qui indique les droits efficaces de l’utilisateur authentifié actuel sur cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-156">Gets a value that indicates the effective rights that the current authenticated user has on this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-157">Une valeur d’énumération EffectiveRights.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-157">An EffectiveRights enumeration value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntityExtractionResult">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EntityExtractionResult EntityExtractionResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EntityExtractionResult As EntityExtractionResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ EntityExtractionResult { Microsoft::Exchange::WebServices::Data::EntityExtractionResult ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EntityExtractionResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-158">Obtient les informations sur l’élément d’extraction d’entité.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-158">Gets the entity extraction information on the item.</span>
+          </span>
+          <span data-ttu-id="21062-159">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-159">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.EntityExtractionResult" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-160">Les entités extraites.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-160">The extracted entities.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtendedProperties As ExtendedPropertyCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ ExtendedProperties { Microsoft::Exchange::WebServices::Data::ExtendedPropertyCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ExtendedPropertyCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-161">Obtient une liste des propriétés étendues qui sont définies sur cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-161">Gets a list of extended properties that are defined on this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-162">Objet ExtendedPropertyCollection.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-162">An ExtendedPropertyCollection object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Flag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Flag Flag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Flag Flag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Flag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Flag As Flag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Flag ^ Flag { Microsoft::Exchange::WebServices::Data::Flag ^ get(); void set(Microsoft::Exchange::WebServices::Data::Flag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Flag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-163">Obtient ou définit une valeur d’indicateur qui indique l’état, date de début, date d’échéance ou date de fin d’un élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-163">Gets or sets a flag value that indicates the status, start date, due date, or completion date for an item.</span>
+          </span>
+          <span data-ttu-id="21062-164">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-164">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Flag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-165">La valeur d’indicateur de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-165">The flag value for this item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-166">Obtient une valeur qui indique si l’élément a des pièces jointes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-166">Gets a value that indicates whether the item has attachments.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-167">True si l’élément a des pièces jointes ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-167">True if the item has attachments; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IconIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.IconIndex IconIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.IconIndex IconIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IconIndex As IconIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::IconIndex IconIndex { Microsoft::Exchange::WebServices::Data::IconIndex get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IconIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-168">Obtient l’index de l’icône.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-168">Gets the icon index.</span>
+          </span>
+          <span data-ttu-id="21062-169">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-169">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.IconIndex" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-170">L’index de l’icône.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-170">The icon index.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ Id { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-171">Obtient l’ID de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-171">Gets the ID of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-172">Objet ItemId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-172">An ItemId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Importance Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Importance Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Importance" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Importance Importance { Microsoft::Exchange::WebServices::Data::Importance get(); void set(Microsoft::Exchange::WebServices::Data::Importance value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Importance</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-173">Obtient ou définit l’importance de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-173">Gets or sets the importance of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-174">Une valeur d’énumération Importance indiquant l’importance de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-174">An Importance enumeration value indicating the importance of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InReplyTo">
+      <MemberSignature Language="C#" Value="public string InReplyTo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InReplyTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InReplyTo" />
+      <MemberSignature Language="VB.NET" Value="Public Property InReplyTo As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InReplyTo { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-175">Obtient ou définit la référence In-Reply-To de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-175">Gets or sets the In-Reply-To reference of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-176">Une valeur de type string.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-176">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstanceKey">
+      <MemberSignature Language="C#" Value="public byte[] InstanceKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] InstanceKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKey As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ InstanceKey { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-177">Obtient la clé d’instance élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-177">Gets the item instance key.</span>
+          </span>
+          <span data-ttu-id="21062-178">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-178">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.InstanceKey" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-179">La touche instance élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-179">The item instance key.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetMessageHeaders">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection InternetMessageHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.InternetMessageHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InternetMessageHeaders As InternetMessageHeaderCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ InternetMessageHeaders { Microsoft::Exchange::WebServices::Data::InternetMessageHeaderCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-180">Obtient une liste d’en-têtes Internet pour cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-180">Gets a list of Internet headers for this item.</span>
+          </span>
+          <span data-ttu-id="21062-181">Pour obtenir l’ensemble des en-têtes de message Internet, utilisez la propriété PR_TRANSPORT_MESSAGE_HEADERS.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-181">To get the entire collection of Internet message headers, use the PR_TRANSPORT_MESSAGE_HEADERS property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-182">Un <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> objet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-182">An <see cref="T:Microsoft.Exchange.WebServices.Data.InternetMessageHeaderCollection" /> object.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="21062-183">
+            <para>Voici la définition de la propriété étendue de PR_TRANSPORT_MESSAGE_HEADERS.</para>
+            <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+            <para>Vous pouvez ajouter la définition de cette propriété à le <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> objet pour obtenir les en-têtes de message Internet.</para>
+            <para>Pour plus d’informations sur les en-têtes de message Internet et EWS, voir « En-têtes de message Internet mise en route » dans <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME et les en-têtes de message Internet manquants</a></para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-183">
+              <para>The following is the definition for the PR_TRANSPORT_MESSAGE_HEADERS extended property.</para>
+              <code>ExtendedPropertyDefinition PR_TRANSPORT_MESSAGE_HEADERS = new ExtendedPropertyDefinition(0x007D, MapiPropertyType.String);</code>
+              <para>You can add this property definition to the <see cref="T:Microsoft.Exchange.WebServices.Data.PropertySet" /> object to get the Internet message headers.</para>
+              <para>For more information about EWS and Internet message headers, see “Getting Internet message headers” in <a href="http://msdn.microsoft.com/en-us/library/exchange/hh545614(v=exchg.140).aspx">EWS, MIME, and the missing Internet message headers</a></para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAssociated">
+      <MemberSignature Language="C#" Value="public bool IsAssociated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAssociated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAssociated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAssociated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAssociated { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-184">Obtient une valeur qui indique s’il s’agit d’un élément associé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-184">Gets a value that indicates whether this is an associated item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-185">La valeur True s’il s’agit d’un élément associé ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-185">True if this is an associated item; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAttachment">
+      <MemberSignature Language="C#" Value="public bool IsAttachment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAttachment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsAttachment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsAttachment As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAttachment { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-186">Obtient une valeur qui indique si l’élément est une pièce jointe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-186">Gets a value that indicates whether the item is an attachment.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-187">True si l’élément possède une pièce jointe ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-187">True if the item has an attachment; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDraft">
+      <MemberSignature Language="C#" Value="public bool IsDraft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDraft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsDraft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDraft As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDraft { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-188">Obtient une valeur qui indique si l’élément est un brouillon.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-188">Gets a value that indicates whether the item is a draft.</span>
+          </span>
+          <span data-ttu-id="21062-189">Un élément est un brouillon lorsqu’il n’a pas encore été envoyé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-189">An item is a draft when it has not yet been sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-190">True si cet élément est un brouillon ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-190">True if this item is a draft; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFromMe">
+      <MemberSignature Language="C#" Value="public bool IsFromMe { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFromMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsFromMe" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsFromMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFromMe { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-191">Obtient une valeur qui indique si l’élément a été envoyé par l’utilisateur authentifié actuel.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-191">Gets a value that indicates whether the item has been sent by the current authenticated user.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-192">True si l’élément est envoyé par l’utilisateur authentifié actuel ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-192">True if the item is sent by the current authenticated user; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNew">
+      <MemberSignature Language="C#" Value="public override bool IsNew { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNew" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsNew" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property IsNew As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool IsNew { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-193">Obtient une valeur qui indique si cet objet est un élément de magasin réel ou d’un objet local qui n’a pas encore le point d’être enregistrées.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-193">Gets a value that indicates whether this object is a real store item or a local object that has yet to be saved.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-194">True si l’élément n’a pas été enregistré. Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-194">True if the item has not been saved; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReminderSet">
+      <MemberSignature Language="C#" Value="public bool IsReminderSet { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReminderSet" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsReminderSet" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReminderSet As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReminderSet { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-195">Obtient ou définit une valeur qui indique si un rappel est défini pour cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-195">Gets or sets a value that indicates whether a reminder is set for this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-196">True si le rappel est défini ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-196">True if the reminder is set; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsResend">
+      <MemberSignature Language="C#" Value="public bool IsResend { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsResend" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsResend" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsResend As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsResend { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-197">Obtient une valeur qui indique si l’élément est un renvoi d’un autre élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-197">Gets a value that indicates whether the item is a resend of another item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-198">True si l’élément est un renvoi ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-198">True if the item is a resend; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSubmitted">
+      <MemberSignature Language="C#" Value="public bool IsSubmitted { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSubmitted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsSubmitted" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSubmitted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSubmitted { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-199">Obtient une valeur qui indique si le message a été soumis à être envoyés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-199">Gets a value that indicates whether the message has been submitted to be sent.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-200">True si l’élément a été soumis ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-200">True if the item has been submitted; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUnmodified">
+      <MemberSignature Language="C#" Value="public bool IsUnmodified { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUnmodified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.IsUnmodified" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUnmodified As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUnmodified { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-201">Obtient une valeur qui indique si l’élément a été modifié depuis qu’il a été créé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-201">Gets a value that indicates whether the item has been modified since it was created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-202">True si l’élément n’a pas été modifié ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-202">True if the item has not been modified; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClass">
+      <MemberSignature Language="C#" Value="public string ItemClass { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ItemClass" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ItemClass" />
+      <MemberSignature Language="VB.NET" Value="Public Property ItemClass As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ItemClass { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-203">Obtient ou définit le nom de la classe personnalisée de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-203">Gets or sets the custom class name of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-204">Une valeur string indiquant le nom de la classe personnalisée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-204">A string value indicating the custom class name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedName">
+      <MemberSignature Language="C#" Value="public string LastModifiedName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LastModifiedName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LastModifiedName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-205">Obtient le nom de l’utilisateur qui a modifié cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-205">Gets the name of the user who last modified this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-206">Une valeur de type string indiquant le dernier utilisateur ayant modifié l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-206">A string value indicating the user who last modified the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LastModifiedTime">
+      <MemberSignature Language="C#" Value="public DateTime LastModifiedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime LastModifiedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.LastModifiedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastModifiedTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime LastModifiedTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-207">Obtient la date et l’heure de dernière modification de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-207">Gets the date and time that this item was last modified.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-208">Une valeur DateTime qui indique la date et heure de dernière modification de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-208">A DateTime value indicating the date and time the item was last modified.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MimeContent">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MimeContent MimeContent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MimeContent MimeContent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.MimeContent" />
+      <MemberSignature Language="VB.NET" Value="Public Property MimeContent As MimeContent" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MimeContent ^ MimeContent { Microsoft::Exchange::WebServices::Data::MimeContent ^ get(); void set(Microsoft::Exchange::WebServices::Data::MimeContent ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MimeContent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-209">Obtient le MIME contenu de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-209">Gets the MIME content of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-210">Un objet MimeContent.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-210">A MimeContent object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(class Microsoft.Exchange.WebServices.Data.FolderId destinationFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderId As FolderId) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::FolderId ^ destinationFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderId">
+          <span data-ttu-id="21062-211">L’ID du dossier vers lequel déplacer cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-211">The ID of the folder to which to move this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-212">Déplace cet élément dans le dossier spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-212">Moves this item to the specified folder.</span>
+          </span>
+          <span data-ttu-id="21062-213">L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-213">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="21062-214">Un objet d’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-214">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Move">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Move (Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.Item Move(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName destinationFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Move(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Move (destinationFolderName As WellKnownFolderName) As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::Item ^ Move(Microsoft::Exchange::WebServices::Data::WellKnownFolderName destinationFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="destinationFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="destinationFolderName">
+          <span data-ttu-id="21062-215">Le nom du dossier vers lequel déplacer cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-215">The name of the folder to which to move this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-216">Déplace cet élément dans le dossier spécifié.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-216">Moves this item to the specified folder.</span>
+          </span>
+          <span data-ttu-id="21062-217">L’appel de cette méthode entraîne un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-217">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="21062-218">Un objet d’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-218">An Item object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NormalizedBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.NormalizedBody NormalizedBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NormalizedBody As NormalizedBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::NormalizedBody ^ NormalizedBody { Microsoft::Exchange::WebServices::Data::NormalizedBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.NormalizedBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-219">Obtient le corps du message d’un élément qui a été converti en une valeur normalisée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-219">Gets the message body of an item that has been converted to a normalized value.</span>
+          </span>
+          <span data-ttu-id="21062-220">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-220">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.NormalizedBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-221">Le corps de l’élément normalisé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-221">The normalized body of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.FolderId ParentFolderId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentFolderId As FolderId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderId ^ ParentFolderId { Microsoft::Exchange::WebServices::Data::FolderId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-222">Obtient l’ID du dossier parent de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-222">Gets the ID of the parent folder of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-223">Un objet FolderId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-223">A FolderId object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PolicyTag PolicyTag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Property PolicyTag As PolicyTag" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PolicyTag ^ PolicyTag { Microsoft::Exchange::WebServices::Data::PolicyTag ^ get(); void set(Microsoft::Exchange::WebServices::Data::PolicyTag ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PolicyTag</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-224">Obtient ou définit la valeur de stratégie de rétention.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-224">Gets or sets the retention policy value.</span>
+          </span>
+          <span data-ttu-id="21062-225">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-225">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.PolicyTag" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-226">La valeur de stratégie de rétention.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-226">The retention policy value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Preview">
+      <MemberSignature Language="C#" Value="public string Preview { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Preview" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Preview As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Preview { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-227">Obtient l’aperçu de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-227">Gets the item preview.</span>
+          </span>
+          <span data-ttu-id="21062-228">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-228">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.Preview" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-229">L’aperçu de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-229">The item preview.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderDueBy">
+      <MemberSignature Language="C#" Value="public DateTime ReminderDueBy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ReminderDueBy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderDueBy" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderDueBy As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ReminderDueBy { DateTime get(); void set(DateTime value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-230">Obtient ou définit la date et l’heure à laquelle le rappel est dû pour cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-230">Gets or sets the date and time when the reminder is due for this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-231">Une valeur DateTime qui indique la date et l’heure du rappel est dû.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-231">A DateTime value indicating the date and time the reminder is due.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderMinutesBeforeStart">
+      <MemberSignature Language="C#" Value="public int ReminderMinutesBeforeStart { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReminderMinutesBeforeStart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.ReminderMinutesBeforeStart" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReminderMinutesBeforeStart As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ReminderMinutesBeforeStart { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-232">Obtient ou définit le nombre de minutes avant le début de cet article que le rappel doit être déclenché.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-232">Gets or sets the number of minutes before the start of this item that the reminder should be triggered.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-233">Valeur entière indiquant le nombre de minutes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-233">An integer value indicating the number of minutes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveExtendedProperty">
+      <MemberSignature Language="C#" Value="public bool RemoveExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.RemoveExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RemoveExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">
+          <span data-ttu-id="21062-234">La définition de la propriété étendue.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-234">The extended property definition.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-235">Supprime une propriété étendue.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-235">Removes an extended property.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="21062-236">True si la propriété a été supprimée ; Sinon, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-236">True if the property was removed; otherwise, false.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RetentionDate">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; RetentionDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; RetentionDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RetentionDate As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; RetentionDate { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-237">Obtient la date jusqu'à laquelle un élément doit être conservé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-237">Gets the date until which an item must be preserved.</span>
+          </span>
+          <span data-ttu-id="21062-238">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-238">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.RetentionDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-239">La date de rétention.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-239">The retention date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-240">Enregistre cet élément dans le dossier par défaut basé sur le type de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-240">Saves this item in the default folder based on the item's type.</span>
+          </span>
+          <span data-ttu-id="21062-241">Appel de cette méthode donne au moins un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-241">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="21062-242">Plusieurs appels à EWS peuvent être établies si les pièces jointes ont été ajoutés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-242">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.FolderId parentFolderId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class Microsoft.Exchange.WebServices.Data.FolderId parentFolderId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.FolderId)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderId As FolderId)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::FolderId ^ parentFolderId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderId" Type="Microsoft.Exchange.WebServices.Data.FolderId" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderId">
+          <span data-ttu-id="21062-243">L’ID du dossier dans lequel enregistrer cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-243">The ID of the folder in which to save this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-244">Enregistre cet élément dans un dossier spécifique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-244">Saves this item in a specific folder.</span>
+          </span>
+          <span data-ttu-id="21062-245">Appel de cette méthode donne au moins un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-245">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="21062-246">Plusieurs appels à EWS peuvent être établies si les pièces jointes ont été ajoutés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-246">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="public void Save (Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(valuetype Microsoft.Exchange.WebServices.Data.WellKnownFolderName parentFolderName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Save(Microsoft.Exchange.WebServices.Data.WellKnownFolderName)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Save (parentFolderName As WellKnownFolderName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(Microsoft::Exchange::WebServices::Data::WellKnownFolderName parentFolderName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="parentFolderName" Type="Microsoft.Exchange.WebServices.Data.WellKnownFolderName" />
+      </Parameters>
+      <Docs>
+        <param name="parentFolderName">
+          <span data-ttu-id="21062-247">Le nom du dossier dans lequel enregistrer cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-247">The name of the folder in which to save this item.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-248">Enregistre cet élément dans un dossier spécifique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-248">Saves this item in a specific folder.</span>
+          </span>
+          <span data-ttu-id="21062-249">Appel de cette méthode donne au moins un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-249">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="21062-250">Plusieurs appels à EWS peuvent être établies si les pièces jointes ont été ajoutés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-250">Multiple calls to EWS might be made if attachments have been added.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.Sensitivity Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Sensitivity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Sensitivity Sensitivity { Microsoft::Exchange::WebServices::Data::Sensitivity get(); void set(Microsoft::Exchange::WebServices::Data::Sensitivity value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Sensitivity</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-251">Obtient la sensibilité de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-251">Gets the sensitivity of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-252">Un objet de critère de diffusion.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-252">A Sensitivity object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtendedProperty">
+      <MemberSignature Language="C#" Value="public void SetExtendedProperty (Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetExtendedProperty(class Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition extendedPropertyDefinition, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.SetExtendedProperty(Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition,System.Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtendedProperty(Microsoft::Exchange::WebServices::Data::ExtendedPropertyDefinition ^ extendedPropertyDefinition, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extendedPropertyDefinition" Type="Microsoft.Exchange.WebServices.Data.ExtendedPropertyDefinition" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="extendedPropertyDefinition">
+          <span data-ttu-id="21062-253">La propriété étendue à définir.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-253">The extended property to set.</span>
+          </span>
+        </param>
+        <param name="value">
+          <span data-ttu-id="21062-254">Valeur à affecter à la propriété étendue.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-254">The value to set on the extended property.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-255">Affecte la propriété valeur spécifiée à l’étendue.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-255">Sets the specified extended property to the specified value.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public int Size { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Size" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Size As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Size { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-256">Obtient la taille de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-256">Gets the size of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-257">Valeur entière indiquant la taille de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-257">An integer value indicating the size of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreEntryId">
+      <MemberSignature Language="C#" Value="public byte[] StoreEntryId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] StoreEntryId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StoreEntryId As Byte()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Byte&gt; ^ StoreEntryId { cli::array &lt;System::Byte&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-258">Obtient l’identificateur d’entrée de la banque qui héberge l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-258">Gets the entry ID of the store that hosts the item.</span>
+          </span>
+          <span data-ttu-id="21062-259">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-259">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.StoreEntryId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-260">L’ID d’entrée de magasin.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-260">The store entry ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-261">Obtient ou définit l’objet de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-261">Gets or sets the subject of this item.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-262">Une valeur string qui indique l’objet de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-262">A string value indicating the subject of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.TextBody TextBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.TextBody TextBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextBody As TextBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::TextBody ^ TextBody { Microsoft::Exchange::WebServices::Data::TextBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.TextBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-263">Obtient le corps du texte de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-263">Gets the text body of the item.</span>
+          </span>
+          <span data-ttu-id="21062-264">Le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-264">The <see cref="P:Microsoft.Exchange.WebServices.Data.Item.TextBody" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-265">Le corps du texte de l’élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-265">The text body of the item.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueBody">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UniqueBody UniqueBody" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.UniqueBody" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueBody As UniqueBody" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UniqueBody ^ UniqueBody { Microsoft::Exchange::WebServices::Data::UniqueBody ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UniqueBody</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-266">Obtient la partie du corps qui est unique à la conversation faisant partie de cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-266">Gets the body part that is unique to the conversation that this item is part of.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-267">Un objet UniqueBody.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-267">A UniqueBody object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">
+          <span data-ttu-id="21062-268">Le mode de résolution de conflit.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-268">The conflict resolution mode.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-269">Applique les modifications locales qui ont été apportées à cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-269">Applies the local changes that have been made to this item.</span>
+          </span>
+          <span data-ttu-id="21062-270">Appel de cette méthode donne au moins un appel à Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-270">Calling this method results in at least one call to Exchange Web Services (EWS).</span>
+          </span>
+          <span data-ttu-id="21062-271">Plusieurs appels EWS peuvent être établies si les pièces jointes ont été ajoutés ou supprimés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-271">Multiple calls to EWS might be made if attachments have been added or removed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update (Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Update(valuetype Microsoft.Exchange.WebServices.Data.ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.Item.Update(Microsoft.Exchange.WebServices.Data.ConflictResolutionMode,System.Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update(Microsoft::Exchange::WebServices::Data::ConflictResolutionMode conflictResolutionMode, bool suppressReadReceipts);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conflictResolutionMode" Type="Microsoft.Exchange.WebServices.Data.ConflictResolutionMode" />
+        <Parameter Name="suppressReadReceipts" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="conflictResolutionMode">
+          <span data-ttu-id="21062-272">Le mode de résolution de conflit.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-272">The conflict resolution mode.</span>
+          </span>
+        </param>
+        <param name="suppressReadReceipts">
+          <span data-ttu-id="21062-273">
+            <b>la valeur true</b> si les encaissements ne doivent pas être envoyés si la mise à jour de l’élément en cours de lecture a demandé une confirmation de lecture ; Sinon, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-273">
+              <b>true</b> if read receipts should not be sent if the item being updated has requested a read receipt; otherwise, <b>false</b>.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="21062-274">Applique les modifications locales qui ont été apportées à cet élément.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-274">Applies the local changes that have been made to this item.</span>
+          </span>
+          <span data-ttu-id="21062-275">Résultats de l’appel de cette méthode dans au moins un appel à EWS.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-275">Calling this method results in at least one call to EWS.</span>
+          </span>
+          <span data-ttu-id="21062-276">Plusieurs appels EWS peuvent être établies si les pièces jointes ont été ajoutés ou supprimés.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-276">Mutliple calls to EWS might be made if attachments have been added or removed.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientEditFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientEditFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientEditFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientEditFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientEditFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientEditFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-277">Obtient la chaîne de requête qui peut être ajoutée à l’URL d’Outlook Web App pour ouvrir cet élément dans un navigateur web.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-277">Gets the query string that can be appended to the Outlook Web App URL to open this item in a web browser.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-278">Une valeur de type string.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-278">A string value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="21062-279">
+            <para>Cette propriété s’applique à Exchange 2010. Utilisez les informations à partir de la <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> propriété pour ouvrir un élément de brouillon dans Outlook Web App, puis utiliser l’interface utilisateur pour modifier l’élément de projet.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-279">
+              <para>This property applies to Exchange 2010. Use the information from the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property to open a draft item in Outlook Web App and then use the UI to edit the draft item.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebClientReadFormQueryString">
+      <MemberSignature Language="C#" Value="public string WebClientReadFormQueryString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebClientReadFormQueryString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WebClientReadFormQueryString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ WebClientReadFormQueryString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="21062-280">Obtient la chaîne de requête qui doit être ajoutée à l’URL de client web Exchange pour ouvrir cet élément à l’aide de l’écran de lecture approprié dans un navigateur web.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-280">Gets the query string that should be appended to the Exchange web client URL to open this item by using the appropriate read form in a web browser.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="21062-281">Une valeur de type string.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-281">A string value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="21062-282">
+            <para>L’identificateur d’élément pour une URL d’Outlook Web App est l’identificateur EWS de l’élément. Vous pouvez encodage URL de l’identificateur d’élément EWS et ajoutez-la à la chaîne de requête pour obtenir l’URL d’Outlook Web App pour un élément.</para>
+            <para>Différences entre les versions</para>
+            <para>Versions d’Exchange depuis la version majeure 15 et se terminant par 15.00.775.009 ne retournent pas un fragment de chaîne de requête appropriée dans le <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> propriété.</para>
+            <para>Dans les versions d’Exchange antérieure à la version majeure 15, l’identificateur d’élément pour l’URL d’Outlook Web App est un identificateur d’Outlook Web App. Si vous ciblez une version d’Exchange antérieure à la version majeure 15, vous devez utiliser le <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> méthode pour convertir l’identificateur.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="21062-282">
+              <para>The item identifier for an Outlook Web App URL is the EWS identifier of the item. You can URL-encode the EWS item identifier and append it to the query string to get the Outlook Web App URL for an item.</para>
+              <para>Version differences</para>
+              <para>Versions of Exchange starting with major version 15 and ending with 15.00.775.009 do not return a correct query string fragment in the <see cref="P:Microsoft.Exchange.WebServices.Data.Item.WebClientReadFormQueryString" /> property. </para>
+              <para>In versions of Exchange earlier than major version 15, the item identifier for the Outlook Web App URL is an Outlook Web App identifier. If you are targeting a version of Exchange earlier than major version 15, you have to use the <see cref="M:Microsoft.Exchange.WebServices.ExchangeService.ConvertID" /> method to convert the identifier.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <example>
+          <code>    /// &amp;lt;summary&amp;gt;
+    /// Demonstrates how to open an item in Outlook Web App.
+    /// &amp;lt;/summary&amp;gt;
+    /// &amp;lt;param name="service"&amp;gt;An ExchangeService object that has already had credentials set and contains a valid service URL.&amp;lt;/param&amp;gt;
+    static void OpenOWAFromWebClientReadFormQueryString(ExchangeService service)
+    {
+      // Create a view that will return the identifier for the first item in a folder.
+      ItemView itemView = new ItemView(1);
+      itemView.PropertySet = new PropertySet(BasePropertySet.IdOnly);
+
+      // Make a call to EWS to get one item from the mailbox folder.
+      FindItemsResults&amp;lt;Item&amp;gt; results = service.FindItems(WellKnownFolderName.Drafts, itemView);
+
+      // Get the item identifier of the item to open in Outlook Web App.
+      ItemId itemId = results.Items[0].Id;
+
+      ExchangeServerInfo serverInfo = service.ServerInfo;
+      var owaReadFormQueryString = string.Empty;
+      var ewsIdentifer = itemId.UniqueId;
+
+      try
+      {
+        // Make a call to EWS to bind to the item returned by the FindItems method.
+        EmailMessage msg = EmailMessage.Bind(service, itemId);
+        msg.Load(new PropertySet(BasePropertySet.IdOnly, EmailMessageSchema.WebClientReadFormQueryString));
+
+        // Versions of Exchange starting with major version 15 and ending with Exchange Server 2013 build 15.0.775.09
+        // returned a different query string fragment. This optional check is not required for applications that
+        // target Exchange Online.
+        if ((serverInfo.MajorVersion == 15) &amp;amp;&amp;amp; (serverInfo.MajorBuildNumber &amp;lt; 775) &amp;amp;&amp;amp;(serverInfo.MinorBuildNumber &amp;lt; 09))
+        {
+          // If your client is connected to an Exchange 2013 server that has not been updated to CU3,
+          // this query string will be returned.
+          owaReadFormQueryString = string.Format("#viewmodel=_y.$Ep&amp;amp;ItemID={0}",
+            System.Web.HttpUtility.UrlEncode(ewsIdentifer, Encoding.UTF8));
+        }
+        else
+        {
+          // If your client is connected to an Exchanger 2010, Exchange 2013 CU3, or Exchange Online server,
+          // the WebClientReadFormQueryString is used.
+          owaReadFormQueryString = msg.WebClientReadFormQueryString;
+        }
+
+        // Create the URL that Outlook Web App uses to open the email message.
+        Uri url = service.Url;
+        string owaReadAccessUrl = string.Format("{0}://{1}/owa/{2}",
+          url.Scheme, url.Host, owaReadFormQueryString);
+
+        if (!string.IsNullOrEmpty(owaReadAccessUrl))
+        {
+          System.Diagnostics.Process.Start("IEXPLORE.EXE", owaReadAccessUrl);
+        }
+      }
+      catch (System.ComponentModel.Win32Exception ex)
+      {
+        Console.WriteLine(ex.Message);
+        Console.WriteLine("ERRROR: Internet Explorer cannot be found.");
+      }
+    }</code>
+        </example>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

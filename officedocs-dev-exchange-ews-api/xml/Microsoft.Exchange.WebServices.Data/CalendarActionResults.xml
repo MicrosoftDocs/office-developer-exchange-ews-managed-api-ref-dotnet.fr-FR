@@ -1,0 +1,162 @@
+<Type Name="CalendarActionResults" FullName="Microsoft.Exchange.WebServices.Data.CalendarActionResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e4baede30c5f25e6f2a0a98ef508d35dd1693819" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623849" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CalendarActionResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CalendarActionResults extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CalendarActionResults" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CalendarActionResults sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="9d902-101">Représente les résultats d’une action qui est effectuée sur un élément ou une réunion demande message du calendrier, comme accepter, accepter provisoirement ou refuser une demande de réunion.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9d902-101">Represents the results of an action that is performed on a calendar item or meeting request message, such as accepting, tentatively accepting, or declining a meeting request.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Appointment">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Appointment Appointment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Appointment Appointment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.Appointment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Appointment As Appointment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Appointment ^ Appointment { Microsoft::Exchange::WebServices::Data::Appointment ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Appointment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9d902-102">Obtient la réunion a été acceptée, provisoirement acceptée ou refusée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-102">Gets the meeting that was accepted, tentatively accepted, or declined.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9d902-103">Un objet du rendez-vous.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-103">An Appointment object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingCancellation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingCancellation MeetingCancellation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingCancellation MeetingCancellation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingCancellation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingCancellation As MeetingCancellation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingCancellation ^ MeetingCancellation { Microsoft::Exchange::WebServices::Data::MeetingCancellation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingCancellation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9d902-104">Obtient une copie de l’annulation de réunion message envoyées aux participants d’une réunion par l’organisateur lorsque la réunion est annulée.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-104">Gets a copy of the meeting cancellation message that is sent by the organizer to the attendees of a meeting when the meeting is canceled.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9d902-105">Un objet MeetingCancellation.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-105">A MeetingCancellation object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingRequest">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingRequest MeetingRequest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingRequest MeetingRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingRequest As MeetingRequest" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingRequest ^ MeetingRequest { Microsoft::Exchange::WebServices::Data::MeetingRequest ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingRequest</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9d902-106">Obtient la demande de réunion qui a été déplacée vers le dossier éléments supprimés à la suite d’un participant accepter, accepter provisoirement ou refuser une demande de réunion.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-106">Gets the meeting request that was moved to the Deleted Items folder as a result of an attendee accepting, tentatively accepting, or declining a meeting request.</span>
+          </span>
+          <span data-ttu-id="9d902-107">Si la demande de réunion est acceptée, provisoirement accepté ou refusé à partir du dossier éléments supprimés, il est définitivement supprimé et la propriété MeetingRequest est une référence null (Nothing dans Visual Basic).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-107">If the meeting request is accepted, tentatively accepted, or declined from the Deleted Items folder, it is permanently deleted and the MeetingRequest property is a null reference (Nothing in Visual Basic).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9d902-108">Un objet MeetingRequest.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-108">A MeetingRequest object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeetingResponse">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingResponse MeetingResponse { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.MeetingResponse MeetingResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CalendarActionResults.MeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeetingResponse As MeetingResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingResponse ^ MeetingResponse { Microsoft::Exchange::WebServices::Data::MeetingResponse ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponse</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9d902-109">Obtient la copie de la réponse est envoyée à l’organisateur d’une réunion lors de la réunion est acceptée, provisoirement acceptée ou refusée par un participant.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-109">Gets the copy of the response that is sent to the organizer of a meeting when the meeting is accepted, tentatively accepted, or declined by an attendee.</span>
+          </span>
+          <span data-ttu-id="9d902-110">La propriété MeetingResponse est une référence null (Nothing dans Visual Basic) si le participant choisi de ne pas envoyer de réponse.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-110">The MeetingResponse property is a null reference (Nothing in Visual Basic) if the attendee chose not to send a response.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9d902-111">Un objet MeetingResponse.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9d902-111">A MeetingResponse object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

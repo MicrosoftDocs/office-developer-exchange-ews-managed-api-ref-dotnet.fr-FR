@@ -1,0 +1,300 @@
+<Type Name="AppIdentityToken" FullName="Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b70795483db70f8748ae2e9e111e746bdc4eaa2c" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624050" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class AppIdentityToken : Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AppIdentityToken extends Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" />
+  <TypeSignature Language="VB.NET" Value="Public Class AppIdentityToken&#xA;Inherits AuthToken" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppIdentityToken : Microsoft::Exchange::WebServices::Auth::Validation::AuthToken" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.AuthToken</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f3571-101">Définit les propriétés et méthodes nécessaires pour les applications de service de lire et de valider le jeton d’identité d’application.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f3571-101">Defines the properties and methods necessary for service applications to read and validate the application identity token.</span>
+      </span>
+      <span data-ttu-id="f3571-102">Le <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f3571-102">The <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="f3571-103">
+        <para>Cette classe peut être utilisée dans un service web pour <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">authentifier une application de messagerie à l’aide de jetons d’identité Exchange</a></para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f3571-103">
+          <para>This class can be used in a web service to <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">authenticate a mail app by using Exchange identity tokens</a></para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Claims">
+      <MemberSignature Language="C#" Value="public Microsoft.IdentityModel.Claims.ClaimsIdentityCollection Claims { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.IdentityModel.Claims.ClaimsIdentityCollection Claims" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Claims As ClaimsIdentityCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::IdentityModel::Claims::ClaimsIdentityCollection ^ Claims { Microsoft::IdentityModel::Claims::ClaimsIdentityCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.IdentityModel.Claims.ClaimsIdentityCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f3571-104">Obtient les revendications collection identité.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-104">Gets the claims identity collection.</span>
+          </span>
+          <span data-ttu-id="f3571-105">Le <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-105">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Claims" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f3571-106">La collection d’identité basée sur les revendications.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-106">The claims identity collection.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpirationDate">
+      <MemberSignature Language="C#" Value="public DateTime ExpirationDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ExpirationDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpirationDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ExpirationDate { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f3571-107">Obtient la date d’expiration.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-107">Gets the expiration date.</span>
+          </span>
+          <span data-ttu-id="f3571-108">Le <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-108">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.ExpirationDate" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f3571-109">La date d’expiration.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-109">The expiration date.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublicKeyInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo PublicKeyInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo PublicKeyInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PublicKeyInfo As PublicKeyInfo" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Auth::Validation::PublicKeyInfo ^ PublicKeyInfo { Microsoft::Exchange::WebServices::Auth::Validation::PublicKeyInfo ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Auth.Validation.PublicKeyInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f3571-110">Obtient les informations de clé publique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-110">Gets the public key information.</span>
+          </span>
+          <span data-ttu-id="f3571-111">Le <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-111">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.PublicKeyInfo" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f3571-112">Les informations de clé publique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-112">The public key information.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueUserIdentification">
+      <MemberSignature Language="C#" Value="public string UniqueUserIdentification { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueUserIdentification" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueUserIdentification As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueUserIdentification { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f3571-113">Obtient l’identificateur d’utilisateur unique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-113">Gets the unique user identification.</span>
+          </span>
+          <span data-ttu-id="f3571-114">Le <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-114">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.UniqueUserIdentification" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f3571-115">L’identificateur d’utilisateur unique.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-115">The unique user identification.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public void Validate (Uri extensionServiceHost);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Validate(class System.Uri extensionServiceHost) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Validate (extensionServiceHost As Uri)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Validate(Uri ^ extensionServiceHost);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extensionServiceHost" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="extensionServiceHost">
+          <span data-ttu-id="f3571-116">URI de l’hôte d’extension de service.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-116">The URI of the extension service host.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f3571-117">Valide le jeton d’identité de l’application à l’aide de la clé publique à la spécifié ressource identificateur URI (Uniform).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-117">Validates the application identity token using the public key at the specified Uniform Resource Identifier (URI).</span>
+          </span>
+          <span data-ttu-id="f3571-118">Le <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> méthode s’applique aux clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-118">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public void Validate (Uri extensionServiceHost, string catchedKey);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Validate(class System.Uri extensionServiceHost, string catchedKey) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Validate (extensionServiceHost As Uri, catchedKey As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Validate(Uri ^ extensionServiceHost, System::String ^ catchedKey);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="extensionServiceHost" Type="System.Uri" />
+        <Parameter Name="catchedKey" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="extensionServiceHost">
+          <span data-ttu-id="f3571-119">URI de l’hôte d’extension de service.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-119">The URI of the extension service host.</span>
+          </span>
+        </param>
+        <param name="catchedKey">
+          <span data-ttu-id="f3571-120">La touche mis en cache.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-120">The cached key.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f3571-121">Valide le jeton d’identité application mis en cache à l’aide de la clé publique à la spécifié ressource identificateur URI (Uniform).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-121">Validates the cached application identity token using the public key at the specified Uniform Resource Identifier (URI).</span>
+          </span>
+          <span data-ttu-id="f3571-122">Le <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" /> méthode s’applique aux clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-122">The <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri,System.String)" /> method is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public string Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f3571-123">Obtient la version de revendication.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-123">Gets the claim version.</span>
+          </span>
+          <span data-ttu-id="f3571-124">Le <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-124">The <see cref="P:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Version" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f3571-125">La chaîne de version.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f3571-125">The version string.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

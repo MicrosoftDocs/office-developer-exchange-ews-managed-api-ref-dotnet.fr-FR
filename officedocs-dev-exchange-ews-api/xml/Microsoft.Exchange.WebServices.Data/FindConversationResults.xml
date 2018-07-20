@@ -1,0 +1,174 @@
+<Type Name="FindConversationResults" FullName="Microsoft.Exchange.WebServices.Data.FindConversationResults">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9fcdbd02816ebfcc8a32b13a9a1f32bdcb99c391" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20624412" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FindConversationResults" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FindConversationResults extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FindConversationResults" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FindConversationResults sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="ae56b-101">Contient les résultats d’une tentative de rechercher les conversations dans un dossier.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ae56b-101">Contains the results of an attempt to find conversations in a folder.</span>
+      </span>
+      <span data-ttu-id="ae56b-102">Le <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ae56b-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.FindConversationResults" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Conversations">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conversation&gt; Conversations { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.Conversation&gt; Conversations" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Conversations As Collection(Of Conversation)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conversation ^&gt; ^ Conversations { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::Conversation ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.Conversation&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ae56b-103">Obtient les conversations trouvées par l’opération de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-103">Gets the conversations found by the search operation.</span>
+          </span>
+          <span data-ttu-id="ae56b-104">Le <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.Conversations" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ae56b-105">Les conversations trouvées par l’opération de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-105">The conversations found by the search operation.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HighlightTerms">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt; HighlightTerms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.Collection`1&lt;class Microsoft.Exchange.WebServices.Data.HighlightTerm&gt; HighlightTerms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HighlightTerms As Collection(Of HighlightTerm)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::HighlightTerm ^&gt; ^ HighlightTerms { System::Collections::ObjectModel::Collection&lt;Microsoft::Exchange::WebServices::Data::HighlightTerm ^&gt; ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Exchange.WebServices.Data.HighlightTerm&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ae56b-106">Obtient les termes en surbrillance renvoyés par l’opération de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-106">Gets the highlighted terms returned by the search operation.</span>
+          </span>
+          <span data-ttu-id="ae56b-107">Le <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.HighlightTerms" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ae56b-108">Les termes en surbrillance renvoyés par l’opération de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-108">The highlighted terms returned by the search operation.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndexedOffset">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; IndexedOffset { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; IndexedOffset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IndexedOffset As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; IndexedOffset { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ae56b-109">Obtient le décalage de la première conversation renvoyé par l’opération de recherche indexé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-109">Gets the indexed offset of the first conversation returned by the search operation.</span>
+          </span>
+          <span data-ttu-id="ae56b-110">Le <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.IndexedOffset" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ae56b-111">Décalage de la première conversation renvoyé par l’opération de recherche indexé.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-111">The indexed offset of the first conversation returned by the search operation.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public Nullable&lt;int&gt; TotalCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; TotalCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalCount As Nullable(Of Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; TotalCount { Nullable&lt;int&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ae56b-112">Obtient le nombre de conversations renvoyé par l’opération de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-112">Gets the number of conversations returned by the search operation.</span>
+          </span>
+          <span data-ttu-id="ae56b-113">Le <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.FindConversationResults.TotalCount" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ae56b-114">Le nombre total de conversations dans la vue.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ae56b-114">The total count of conversations in view.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
