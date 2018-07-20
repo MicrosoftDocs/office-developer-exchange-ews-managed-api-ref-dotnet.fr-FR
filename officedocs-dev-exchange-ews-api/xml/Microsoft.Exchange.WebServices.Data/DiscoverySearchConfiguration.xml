@@ -1,0 +1,241 @@
+<Type Name="DiscoverySearchConfiguration" FullName="Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bb8b91c9b8af648bf097eec9ca68d2cacce437d4" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623598" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class DiscoverySearchConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DiscoverySearchConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class DiscoverySearchConfiguration" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DiscoverySearchConfiguration sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="dffb8-101">Définit un objet de requête de boîte aux lettres.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="dffb8-101">Defines a mailbox query object.</span>
+      </span>
+      <span data-ttu-id="dffb8-102">Le <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> classe n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="dffb8-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiscoverySearchConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DiscoverySearchConfiguration();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="dffb8-103">Initialise une nouvelle instance de le <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration" /> class.</span>
+          </span>
+          <span data-ttu-id="dffb8-104">Le <see cref="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" /> constructeur est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InPlaceHoldIdentity">
+      <MemberSignature Language="C#" Value="public string InPlaceHoldIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InPlaceHoldIdentity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.InPlaceHoldIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property InPlaceHoldIdentity As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InPlaceHoldIdentity { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dffb8-105">Identité de blocage sur Place</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-105">In-Place hold identity</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Language">
+      <MemberSignature Language="C#" Value="public string Language { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Language" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.Language" />
+      <MemberSignature Language="VB.NET" Value="Public Property Language As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Language { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dffb8-106">Obtient ou définit la langue utilisée dans la requête dans le <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> propriété.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-106">Gets or sets the language used in the query in the <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> property.</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedByOrganization">
+      <MemberSignature Language="C#" Value="public string ManagedByOrganization { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ManagedByOrganization" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.ManagedByOrganization" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedByOrganization As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ManagedByOrganization { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dffb8-107">Géré par l’organisation</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-107">Managed by organization</span>
+          </span>
+        </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchableMailboxes">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.SearchableMailbox[] SearchableMailboxes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchableMailboxes As SearchableMailbox()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ SearchableMailboxes { cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ get(); void set(cli::array &lt;Microsoft::Exchange::WebServices::Data::SearchableMailbox ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.SearchableMailbox[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dffb8-108">Obtient ou définit la liste des boîtes aux lettres de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-108">Gets or sets the list of searchable mailboxes.</span>
+          </span>
+          <span data-ttu-id="dffb8-109">Le <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-109">The <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchableMailboxes" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="dffb8-110">Les boîtes aux lettres utilisables dans une requête.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-110">The searchable mailboxes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchId">
+      <MemberSignature Language="C#" Value="public string SearchId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dffb8-111">Obtient ou définit l’ID de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-111">Gets or sets the search ID.</span>
+          </span>
+          <span data-ttu-id="dffb8-112">Le <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-112">The <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="dffb8-113">L’ID de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-113">The search ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SearchQuery">
+      <MemberSignature Language="C#" Value="public string SearchQuery { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SearchQuery" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" />
+      <MemberSignature Language="VB.NET" Value="Public Property SearchQuery As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SearchQuery { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="dffb8-114">Obtient ou définit la requête de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-114">Gets or sets the search query.</span>
+          </span>
+          <span data-ttu-id="dffb8-115">Le <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> propriété n’est applicable pour les clients qui ciblent Exchange Online et versions d’Exchange commençant par Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.DiscoverySearchConfiguration.SearchQuery" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="dffb8-116">La requête de recherche.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="dffb8-116">The search query.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
