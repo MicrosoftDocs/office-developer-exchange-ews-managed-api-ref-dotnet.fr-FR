@@ -1,0 +1,93 @@
+<Type Name="ItemChange" FullName="Microsoft.Exchange.WebServices.Data.ItemChange">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="13013e890079a5bcfd43d2f02c5f249b424fabbc" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="fr-FR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20623622" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ItemChange : Microsoft.Exchange.WebServices.Data.Change" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ItemChange extends Microsoft.Exchange.WebServices.Data.Change" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ItemChange" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ItemChange&#xA;Inherits Change" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ItemChange sealed : Microsoft::Exchange::WebServices::Data::Change" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.Change</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Représente une modification d’un élément renvoyé par une opération de synchronisation.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsRead">
+      <MemberSignature Language="C#" Value="public bool IsRead { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRead" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemChange.IsRead" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRead As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsRead { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient une valeur qui indique si la modification s’applique à l’élément a été lu. Estlu n’est valide que lorsque la propriété ChangeType est égale à <b>ChangeType.ReadFlagChange</b>.</summary>
+        <value>
+          <b>true</b> si la modification s’applique à l’élément a été lu ; Sinon, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Item Item { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Item Item" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemChange.Item" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item As Item" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Item ^ Item { Microsoft::Exchange::WebServices::Data::Item ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Item</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient l’élément qui la modification s’applique à.</summary>
+        <value>La modification s’applique à l’élément.</value>
+        <remarks>
+          <para>Item est une référence null (Nothing dans Visual Basic) lorsque la <see cref="P:Microsoft.Exchange.WebServices.Data.Change.ChangeType" /> propriété a une valeur de <b>ChangeType.Delete</b> ou <b>ChangeType.ReadFlagChange</b>. Dans ces cas, utilisez la <see cref="P:Microsoft.Exchange.WebServices.Data.ItemChange.ItemId" /> propriété pour récupérer l’identificateur de l’élément a été supprimé ou pour lesquels le <see cref="P:Microsoft.Exchange.WebServices.Data.ItemChange.IsRead" /> propriété a été modifiée.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId ItemId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId ItemId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ItemChange.ItemId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ ItemId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtient l’identificateur de l’élément que la modification s’applique à.</summary>
+        <value>ID de l’élément que la modification s’applique à.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
